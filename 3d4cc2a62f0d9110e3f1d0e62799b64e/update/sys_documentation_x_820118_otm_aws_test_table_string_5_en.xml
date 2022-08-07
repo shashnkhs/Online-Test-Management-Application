@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="string_5" label="What are the different types of instances?" language="en" table="x_820118_otm_aws_test_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>string_5</element>
+            <help/>
+            <hint/>
+            <label>What are the different types of instances?</label>
+            <language>en</language>
+            <name>x_820118_otm_aws_test_table</name>
+            <plural>What are the different types of instances?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-06 11:47:12</sys_created_on>
+            <sys_id>aad68c132f015510e3f1d0e62799b621</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>What are the different types of instances?</sys_name>
+            <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+            <sys_update_name>sys_documentation_x_820118_otm_aws_test_table_string_5_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-06 11:47:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

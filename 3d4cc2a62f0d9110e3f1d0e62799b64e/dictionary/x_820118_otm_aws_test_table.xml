@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="AWS Test Table" max_length="40" name="x_820118_otm_aws_test_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="End Date" max_length="40" name="end_date" type="glide_date_time"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="RESULT" max_length="40" name="result" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Date" max_length="40" name="start_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="What is the full Form of AWS?" max_length="40" name="string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="_______ is a billing and account management" max_length="40" name="string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="AWS reaches customers in _________ countries" max_length="40" name="string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="How many bucket can you create in AWS by default?" max_length="40" name="string_4" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="What are the different types of instances?" max_length="40" name="string_5" type="string"/>
+        <element label="Test Duration" max_length="40" name="test_duration" type="glide_duration"/>
+        <element label="Test ID" max_length="40" name="test_id" type="integer"/>
+        <element label="Test Name" max_length="40" name="test_name" type="string"/>
+        <element label="User ID" max_length="40" name="user_id" type="integer"/>
+        <element label="User Name" max_length="40" name="user_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New Date/Time" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="New Date/Time" max_length="40" name="u_glide_date_time_2" type="glide_date_time"/>
+        <element label="New Duration" max_length="40" name="u_glide_duration_3" type="glide_duration"/>
+    </element>
+</database>

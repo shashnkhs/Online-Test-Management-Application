@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <glyph>calendar</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">0143505f2f015510e3f1d0e62799b61d</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-06 12:38:48</sys_created_on>
+        <sys_id>d6a29c9b2f015510e3f1d0e62799b6bf</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Test Calender</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>sp_instance_link_d6a29c9b2f015510e3f1d0e62799b6bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-06 12:41:43</sys_updated_on>
+        <title>Test Calender</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=d6a29c9b2f015510e3f1d0e62799b6bf"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</application>
+        <file_path/>
+        <instance_id>8b4d41c0db0a5f8c52e3f70fbf9619cf</instance_id>
+        <instance_name>dev58675</instance_name>
+        <name>sp_instance_link_d6a29c9b2f015510e3f1d0e62799b6bf</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;primary&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;calendar&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;0143505f2f015510e3f1d0e62799b61d&lt;/sp_column&gt;&lt;sp_page/&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-08-06 12:38:48&lt;/sys_created_on&gt;&lt;sys_id&gt;d6a29c9b2f015510e3f1d0e62799b6bf&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Test Calender&lt;/sys_name&gt;&lt;sys_package display_value="Online Test Management" source="x_820118_otm"&gt;3d4cc2a62f0d9110e3f1d0e62799b64e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Online Test Management"&gt;3d4cc2a62f0d9110e3f1d0e62799b64e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_d6a29c9b2f015510e3f1d0e62799b6bf&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-08-06 12:41:43&lt;/sys_updated_on&gt;&lt;title&gt;Test Calender&lt;/title&gt;&lt;type&gt;page&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d6a29c9b2f015510e3f1d0e62799b6bf"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-686379762</payload_hash>
+        <record_name>Test Calender</record_name>
+        <reverted_from/>
+        <source>7d4c02aa2f0d9110e3f1d0e62799b6a0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-06 12:41:43</sys_created_on>
+        <sys_id>0953905f2f015510e3f1d0e62799b65c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182732cf9370000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-06 12:41:43</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>cd53905fd0015510baa475cc33fc6a5b</update_guid>
+        <update_guid_history>cd53905fd0015510baa475cc33fc6a5b:-686379762,4d53905f85015510bf065e9c1fa32152:-481525765,7053d81f2f015510a5d10f53ab4d5cf2:-537042694,9053905ff701551082655c572983072d:-481525765,47f2181f680155108aff3a1a3d7a583b:-537042694,5ea2d41f0e015510ab82a26750dfb117:-1324788692</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Test Calender">3a53505f2f015510e3f1d0e62799b623</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-06 12:41:50</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>2e902727dd304d3093229d63b2a9da24</sys_id>
+        <sys_metadata>d6a29c9b2f015510e3f1d0e62799b6bf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Calender</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_scope_delete display_value="">02239a22c93b4790af8e02f6efb4fe10</sys_scope_delete>
+        <sys_update_name>sp_instance_link_d6a29c9b2f015510e3f1d0e62799b6bf</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_d6a29c9b2f015510e3f1d0e62799b6bf">0953905f2f015510e3f1d0e62799b65c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-06 12:41:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

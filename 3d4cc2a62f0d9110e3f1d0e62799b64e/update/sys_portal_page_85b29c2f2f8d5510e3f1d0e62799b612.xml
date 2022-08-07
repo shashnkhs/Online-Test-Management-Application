@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2022-08-07 09:46:03">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-07 07:17:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>85b29c2f2f8d5510e3f1d0e62799b612</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Online Test Manageme - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>sys_portal_page_85b29c2f2f8d5510e3f1d0e62799b612</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-07 07:17:28</sys_updated_on>
+        <title>PA Online Test Manageme - New Tab</title>
+        <user/>
+        <view>pa_online_test_manageme_-_new_tab</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Online Test Manageme - New Tab">85b29c2f2f8d5510e3f1d0e62799b612</page>
+                <summary>OTM AWS Test</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2022-08-07 07:34:32</sys_created_on>
+                <sys_id>8796d0632fcd5510e3f1d0e62799b641</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2022-08-07 07:34:32</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-08-07 00:34:32">8796d0632fcd5510e3f1d0e62799b641</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-08-07 07:34:32</sys_created_on>
+                        <sys_id>0396d0632fcd5510e3f1d0e62799b642</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-08-07 07:34:32</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-08-07 00:34:32">8796d0632fcd5510e3f1d0e62799b641</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-08-07 07:34:32</sys_created_on>
+                        <sys_id>0b96d0632fcd5510e3f1d0e62799b641</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-08-07 07:34:32</sys_updated_on>
+                        <value>0d5694632fcd5510e3f1d0e62799b6fd</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-08-07 00:34:32">8796d0632fcd5510e3f1d0e62799b641</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-08-07 07:34:32</sys_created_on>
+                        <sys_id>4b96d0632fcd5510e3f1d0e62799b642</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-08-07 07:34:32</sys_updated_on>
+                        <value>OTM AWS Test</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-08-07 00:34:32">8796d0632fcd5510e3f1d0e62799b641</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-08-07 07:34:32</sys_created_on>
+                        <sys_id>4f96d0632fcd5510e3f1d0e62799b641</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-08-07 07:34:32</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-08-07 00:34:32">8796d0632fcd5510e3f1d0e62799b641</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-08-07 07:34:32</sys_created_on>
+                        <sys_id>8796d0632fcd5510e3f1d0e62799b642</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-08-07 07:34:32</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-08-07 00:34:32">8796d0632fcd5510e3f1d0e62799b641</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-08-07 07:34:32</sys_created_on>
+                        <sys_id>c396d0632fcd5510e3f1d0e62799b642</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-08-07 07:34:32</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Online Test Manageme - New Tab">85b29c2f2f8d5510e3f1d0e62799b612</page>
+                <summary>OTM ServiceNow Test</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2022-08-07 07:27:33</sys_created_on>
+                <sys_id>a8059c232fcd5510e3f1d0e62799b693</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2022-08-07 07:27:33</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-08-07 00:27:33">a8059c232fcd5510e3f1d0e62799b693</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-08-07 07:27:33</sys_created_on>
+                        <sys_id>38059c232fcd5510e3f1d0e62799b695</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-08-07 07:27:33</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-08-07 00:27:33">a8059c232fcd5510e3f1d0e62799b693</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-08-07 07:27:33</sys_created_on>
+                        <sys_id>74059c232fcd5510e3f1d0e62799b695</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-08-07 07:27:33</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-08-07 00:27:33">a8059c232fcd5510e3f1d0e62799b693</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-08-07 07:27:33</sys_created_on>
+                        <sys_id>a0059c232fcd5510e3f1d0e62799b694</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-08-07 07:27:33</sys_updated_on>
+                        <value>807350af2f8d5510e3f1d0e62799b636</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-08-07 00:27:33">a8059c232fcd5510e3f1d0e62799b693</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-08-07 07:27:33</sys_created_on>
+                        <sys_id>b0059c232fcd5510e3f1d0e62799b695</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-08-07 07:27:33</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-08-07 00:27:33">a8059c232fcd5510e3f1d0e62799b693</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-08-07 07:27:33</sys_created_on>
+                        <sys_id>f8059c232fcd5510e3f1d0e62799b695</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-08-07 07:27:33</sys_updated_on>
+                        <value>OTM ServiceNow Test</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-08-07 00:27:33">a8059c232fcd5510e3f1d0e62799b693</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-08-07 07:27:33</sys_created_on>
+                        <sys_id>fc059c232fcd5510e3f1d0e62799b694</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-08-07 07:27:33</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

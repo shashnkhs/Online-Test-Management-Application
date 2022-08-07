@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="Service Now Test">2e4d662a2f8d9110e3f1d0e62799b69c</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-05 12:58:48</sys_created_on>
+        <sys_id>61ad0b3a2f8dd110e3f1d0e62799b6be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Now Test.Any User</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_61ad0b3a2f8dd110e3f1d0e62799b6be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-05 12:58:48</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</application>
+        <file_path/>
+        <instance_id>8b4d41c0db0a5f8c52e3f70fbf9619cf</instance_id>
+        <instance_name>dev58675</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_61ad0b3a2f8dd110e3f1d0e62799b6be</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Service Now Test">2e4d662a2f8d9110e3f1d0e62799b69c</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-05 12:58:48</sys_created_on><sys_id>61ad0b3a2f8dd110e3f1d0e62799b6be</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Now Test.Any User</sys_name><sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package><sys_policy/><sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_61ad0b3a2f8dd110e3f1d0e62799b6be</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-05 12:58:48</sys_updated_on><user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>1376148477</payload_hash>
+        <record_name>Service Now Test.Any User</record_name>
+        <reverted_from/>
+        <source>7d4c02aa2f0d9110e3f1d0e62799b6a0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-05 12:58:48</sys_created_on>
+        <sys_id>adad0b3a2f8dd110e3f1d0e62799b6c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1826e1641ef0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-05 12:58:48</sys_updated_on>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>25ad0b3a718dd110beac41118a769cc0</update_guid>
+        <update_guid_history>25ad0b3a718dd110beac41118a769cc0:1376148477</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Now Test.Any User">454b7b472fcd1510e3f1d0e62799b645</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-06 10:56:35</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>e9adb0e9e9304f80a3fcae3368a64000</sys_id>
+        <sys_metadata>61ad0b3a2f8dd110e3f1d0e62799b6be</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Now Test.Any User</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_scope_delete display_value="">02239a22c93b4790af8e02f6efb4fe10</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_61ad0b3a2f8dd110e3f1d0e62799b6be</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_61ad0b3a2f8dd110e3f1d0e62799b6be">adad0b3a2f8dd110e3f1d0e62799b6c0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-06 10:56:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

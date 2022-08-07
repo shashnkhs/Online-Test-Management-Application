@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="AWS Cloud">12df4f3e2f8dd110e3f1d0e62799b63a</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-05 13:15:36</sys_created_on>
+        <sys_id>a3715bbe2f8dd110e3f1d0e62799b6ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AWS Cloud.Any User</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_a3715bbe2f8dd110e3f1d0e62799b6ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-05 13:15:36</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</application>
+        <file_path/>
+        <instance_id>8b4d41c0db0a5f8c52e3f70fbf9619cf</instance_id>
+        <instance_name>dev58675</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_a3715bbe2f8dd110e3f1d0e62799b6ee</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="AWS Cloud">12df4f3e2f8dd110e3f1d0e62799b63a</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-05 13:15:36</sys_created_on><sys_id>a3715bbe2f8dd110e3f1d0e62799b6ee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AWS Cloud.Any User</sys_name><sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package><sys_policy/><sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_a3715bbe2f8dd110e3f1d0e62799b6ee</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-05 13:15:36</sys_updated_on><user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>2114447039</payload_hash>
+        <record_name>AWS Cloud.Any User</record_name>
+        <reverted_from/>
+        <source>7d4c02aa2f0d9110e3f1d0e62799b6a0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-05 13:15:36</sys_created_on>
+        <sys_id>27715bbe2f8dd110e3f1d0e62799b6f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1826e25a2610000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-05 13:15:36</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>ab715bbe7d8dd110bf3e01dccd27eff1</update_guid>
+        <update_guid_history>ab715bbe7d8dd110bf3e01dccd27eff1:2114447039</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="AWS Cloud.Any User">ce91dbbe2f8dd110e3f1d0e62799b68a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-05 13:16:02</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>129f2c73847749b6979ea1e178307269</sys_id>
+        <sys_metadata>a3715bbe2f8dd110e3f1d0e62799b6ee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AWS Cloud.Any User</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_scope_delete display_value="">02239a22c93b4790af8e02f6efb4fe10</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_a3715bbe2f8dd110e3f1d0e62799b6ee</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_a3715bbe2f8dd110e3f1d0e62799b6ee">27715bbe2f8dd110e3f1d0e62799b6f2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-05 13:16:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

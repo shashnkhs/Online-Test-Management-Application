@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="130a0f362f8dd110e3f1d0e62799b67a" sys_domain="global" table="x_820118_otm_test_table" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-05 12:43:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b0a0f362f8dd110e3f1d0e62799b67d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_820118_otm_test_table" name="x_820118_otm_test_table" sys_domain="global" view="Default view">130a0f362f8dd110e3f1d0e62799b67a</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_820118_otm_test_table" sys_domain="global" view="Default view">f3cc86a62f0d9110e3f1d0e62799b69a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-05 12:43:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-05 12:43:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>970a0f362f8dd110e3f1d0e62799b67e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_820118_otm_test_table" name="x_820118_otm_test_table" sys_domain="global" view="Default view">130a0f362f8dd110e3f1d0e62799b67a</sys_ui_form>
+            <sys_ui_section caption="ServiceNow Questions" display_value="ServiceNow Questions" name="x_820118_otm_test_table" sys_domain="global" view="Default view">970acb362f8dd110e3f1d0e62799b6ee</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-05 12:43:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-06 11:37:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a84449f2fcd1510e3f1d0e62799b689</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_820118_otm_test_table" name="x_820118_otm_test_table" sys_domain="global" view="Default view">130a0f362f8dd110e3f1d0e62799b67a</sys_ui_form>
+            <sys_ui_section caption="Result" display_value="Result" name="x_820118_otm_test_table" sys_domain="global" view="Default view">ee84449f2fcd1510e3f1d0e62799b685</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-06 11:37:06</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_820118_otm_test_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-05 12:43:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>130a0f362f8dd110e3f1d0e62799b67a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_820118_otm_test_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+            <sys_update_name>sys_ui_form_sections_130a0f362f8dd110e3f1d0e62799b67a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-05 12:43:05</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

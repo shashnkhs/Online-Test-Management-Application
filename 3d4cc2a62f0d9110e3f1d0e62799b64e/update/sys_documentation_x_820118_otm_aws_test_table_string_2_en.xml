@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="string_2" label="_______ is a billing and account management" language="en" table="x_820118_otm_aws_test_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>string_2</element>
+            <help/>
+            <hint/>
+            <label>_______ is a billing and account management</label>
+            <language>en</language>
+            <name>x_820118_otm_aws_test_table</name>
+            <plural>_______ is a billing and account managements</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-06 11:47:12</sys_created_on>
+            <sys_id>2ed68c132f015510e3f1d0e62799b60b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>_______ is a billing and account management</sys_name>
+            <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+            <sys_update_name>sys_documentation_x_820118_otm_aws_test_table_string_2_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-06 11:47:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

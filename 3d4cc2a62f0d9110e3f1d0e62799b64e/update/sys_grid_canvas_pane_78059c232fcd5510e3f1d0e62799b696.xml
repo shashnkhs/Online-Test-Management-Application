@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA Online Test Manageme - New Tab">0db29c2f2f8d5510e3f1d0e62799b613</grid_canvas>
+        <height>18</height>
+        <portal_widget display_value="Created 2022-08-07 00:27:33">a8059c232fcd5510e3f1d0e62799b693</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-07 07:27:33</sys_created_on>
+        <sys_id>78059c232fcd5510e3f1d0e62799b696</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>0db29c2f2f8d5510e3f1d0e62799b613</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_78059c232fcd5510e3f1d0e62799b696</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-07 07:34:40</sys_updated_on>
+        <width>6</width>
+    </sys_grid_canvas_pane>
+</record_update>

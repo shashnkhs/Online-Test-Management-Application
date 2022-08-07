@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>OTM Add Details - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="otm_add_details">1ed83b832fcd1510e3f1d0e62799b688</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-06 10:47:45</sys_created_on>
+        <sys_id>a739ff832fcd1510e3f1d0e62799b67d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OTM Add Details - Container 2</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>sp_container_a739ff832fcd1510e3f1d0e62799b67d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-06 10:47:45</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</application>
+        <file_path/>
+        <instance_id>8b4d41c0db0a5f8c52e3f70fbf9619cf</instance_id>
+        <instance_name>dev58675</instance_name>
+        <name>sp_container_a739ff832fcd1510e3f1d0e62799b67d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>OTM Add Details - Container 2</name><order>2</order><sp_page display_value="otm_add_details">1ed83b832fcd1510e3f1d0e62799b688</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-06 10:47:45</sys_created_on><sys_id>a739ff832fcd1510e3f1d0e62799b67d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>OTM Add Details - Container 2</sys_name><sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package><sys_policy/><sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope><sys_update_name>sp_container_a739ff832fcd1510e3f1d0e62799b67d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-06 10:47:45</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>1049269795</payload_hash>
+        <record_name>OTM Add Details - Container 2</record_name>
+        <reverted_from/>
+        <source>7d4c02aa2f0d9110e3f1d0e62799b6a0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-06 10:47:45</sys_created_on>
+        <sys_id>a339ff832fcd1510e3f1d0e62799b67f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18272c4a23f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-06 10:47:45</sys_updated_on>
+        <type>Container</type>
+        <update_guid>ab39ff834dcd151044342d062714af7e</update_guid>
+        <update_guid_history>ab39ff834dcd151044342d062714af7e:1049269795</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="OTM Add Details - Container 2">2769f7c32fcd1510e3f1d0e62799b617</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-06 10:48:34</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>44ce1ad95f4241d697bdd34991a883a4</sys_id>
+        <sys_metadata>a739ff832fcd1510e3f1d0e62799b67d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OTM Add Details - Container 2</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_scope_delete display_value="">02239a22c93b4790af8e02f6efb4fe10</sys_scope_delete>
+        <sys_update_name>sp_container_a739ff832fcd1510e3f1d0e62799b67d</sys_update_name>
+        <sys_update_version display_value="sp_container_a739ff832fcd1510e3f1d0e62799b67d">a339ff832fcd1510e3f1d0e62799b67f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-06 10:48:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
