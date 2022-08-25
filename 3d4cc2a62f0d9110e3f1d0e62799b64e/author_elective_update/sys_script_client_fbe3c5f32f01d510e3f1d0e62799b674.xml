@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>test_name</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Populate field </name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+// 	g_form.setValue('u_integer_3',u_integer_3);
+	
+	var rn = g_form.getReference('test_name',callBack);
+   
+}
+function callBack(usr){
+
+	g_form.setValue('u_integer_3',usr.u_integer_3);
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-08 05:40:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fbe3c5f32f01d510e3f1d0e62799b674</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Populate field </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>sys_script_client_fbe3c5f32f01d510e3f1d0e62799b674</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-08 05:55:35</sys_updated_on>
+        <table>x_820118_otm_test_table</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</application>
+        <file_path/>
+        <instance_id>8b4d41c0db0a5f8c52e3f70fbf9619cf</instance_id>
+        <instance_name>dev58675</instance_name>
+        <name>sys_script_client_fbe3c5f32f01d510e3f1d0e62799b674</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;test_name&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Populate field &lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+// 	g_form.setValue('u_integer_3',u_integer_3);
+	
+	var rn = g_form.getReference('test_name',callBack);
+   
+}
+function callBack(usr){
+
+	g_form.setValue('u_integer_3',usr.u_integer_3);
+
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-08-08 05:40:47&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;fbe3c5f32f01d510e3f1d0e62799b674&lt;/sys_id&gt;&lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;&lt;sys_name&gt;Populate field &lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Online Test Management" source="x_820118_otm"&gt;3d4cc2a62f0d9110e3f1d0e62799b64e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Online Test Management"&gt;3d4cc2a62f0d9110e3f1d0e62799b64e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_fbe3c5f32f01d510e3f1d0e62799b674&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-08-08 05:55:35&lt;/sys_updated_on&gt;&lt;table&gt;x_820118_otm_test_table&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1598563932</payload_hash>
+        <record_name>Populate field </record_name>
+        <reverted_from/>
+        <source>6db4bcaf2f019510e3f1d0e62799b620</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-08 05:55:35</sys_created_on>
+        <sys_id>9389053b2f01d510e3f1d0e62799b6aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1827c05dd7e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-08 05:55:35</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>1b89053b2401d51051050004696f2ea9</update_guid>
+        <update_guid_history>1b89053b2401d51051050004696f2ea9:-1598563932,2369c93b0201d510d81cd4241f5c9124:1239339477,9139413b1501d510370de53852a83e3d:-1598563932,caf801f70301d5106dc93eff267fc718:-199166540,a2c8013bdc01d51027ad76d6c3816fcb:-198576464,cc780db7e401d510e1e06711728b85d8:443559172,061885f75d01d5103a0b854457d64394:-594168012,67678d775a01d51007b41851525040ce:-723859069,c1f685770401d510ce08e25c1b693ed8:1346596250,6796cd77d701d510a3b2eb7868f7ec9b:-1060297142,c75645378401d5102c6f8cf5bd36b9d3:-1261469938,2a268577ed01d510e3f3c9e7323dc5ce:452806282</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-08 10:01:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0dd45dc45f0c47a2817b774a444a3291</sys_id>
+        <sys_metadata>fbe3c5f32f01d510e3f1d0e62799b674</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Populate field </sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_parent display_value="Test Table">8b8c06aa2f0d9110e3f1d0e62799b686</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_scope_delete display_value="">02239a22c93b4790af8e02f6efb4fe10</sys_scope_delete>
+        <sys_update_name>sys_script_client_fbe3c5f32f01d510e3f1d0e62799b674</sys_update_name>
+        <sys_update_version display_value="sys_script_client_fbe3c5f32f01d510e3f1d0e62799b674">9389053b2f01d510e3f1d0e62799b6aa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-08 10:01:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

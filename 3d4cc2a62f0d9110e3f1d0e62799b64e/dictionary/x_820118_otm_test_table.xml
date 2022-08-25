@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Test Table" max_length="40" name="x_820118_otm_test_table" sizeclass="2" type="collection">
+    <element label="Test Table" max_length="40" name="x_820118_otm_test_table" sizeclass="10" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Duration" max_length="40" name="duration" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="End Date" max_length="40" name="end_date" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="RESULT" max_length="40" name="result" read_only="true" type="string"/>
@@ -11,7 +12,8 @@
         <element attributes="edge_encryption_enabled=true" label="Record producer add the record to  ________ ?" max_length="40" name="string_5" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="What is the full Form of AWS?" max_length="40" name="string_6" type="string"/>
         <element label="Test Duration" max_length="40" name="test_duration" type="glide_duration"/>
-        <element attributes="edge_encryption_enabled=true" label="Test Name" max_length="40" name="test_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Test ID" max_length="40" name="test_id" type="string"/>
+        <element display="true" label="Test Name" max_length="32" name="test_name" reference="x_820118_otm_adding_tests_table" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="User Name" max_length="40" name="user_name" type="string"/>
         <element label="Test ID" max_length="40" name="u_integer_3" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="What are the different types of instances?" max_length="40" name="u_string_10" type="string"/>
@@ -21,5 +23,8 @@
         <element attributes="edge_encryption_enabled=true" label="_______ is a billing and account management" max_length="40" name="u_string_7" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="AWS reaches customers in _________ countries" max_length="40" name="u_string_8" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="How many bucket can you create in AWS by default?" max_length="40" name="u_string_9" type="string"/>
+        <index name="index">
+            <element name="test_name"/>
+        </index>
     </element>
 </database>

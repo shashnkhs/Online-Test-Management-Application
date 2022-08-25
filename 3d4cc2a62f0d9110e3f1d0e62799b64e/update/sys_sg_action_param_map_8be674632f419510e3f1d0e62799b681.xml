@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Edit Button (ServiceNow Test Table List)">c3e674632f419510e3f1d0e62799b627</button>
+        <item_parameter display_value="ServiceNow Test Table List u_string_10">0be674632f419510e3f1d0e62799b624</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-07 09:55:42</sys_created_on>
+        <sys_id>8be674632f419510e3f1d0e62799b681</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0be674632f419510e3f1d0e62799b624</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_8be674632f419510e3f1d0e62799b681</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-07 09:55:42</sys_updated_on>
+        <ui_parameter display_value="What are the different types of instances?">4fe674632f419510e3f1d0e62799b641</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

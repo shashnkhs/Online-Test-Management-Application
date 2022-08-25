@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Adding Tests Table" max_length="40" name="x_820118_otm_adding_tests_table" sizeclass="4" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Test ID" max_length="40" name="number" type="string"/>
+        <element label="Test Duration" max_length="40" name="test_duration" type="glide_time"/>
+        <element label="Test ID" max_length="40" name="test_id" type="integer"/>
+        <element display="true" label="Test Name" max_length="40" name="test_name" type="string"/>
+    </element>
+</database>

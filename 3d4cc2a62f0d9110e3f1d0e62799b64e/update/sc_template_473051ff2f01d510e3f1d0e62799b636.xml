@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_template">
+    <sc_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_for>fb1166d64fff0200086eeed18110c7ab</available_for>
+        <cat_item display_value="Catalog Item Builder">91edb87273221010c84e2bb43cf6a7ae</cat_item>
+        <name>Demo Catalog</name>
+        <short_description>Checking catolog creation works</short_description>
+        <sys_class_name>sc_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-08 06:25:13</sys_created_on>
+        <sys_id>473051ff2f01d510e3f1d0e62799b636</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Demo Catalog</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>sc_template_473051ff2f01d510e3f1d0e62799b636</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-08 06:25:46</sys_updated_on>
+    </sc_template>
+    <sys_translated_text action="delete_multiple" query="documentkey=473051ff2f01d510e3f1d0e62799b636"/>
+</record_update>
