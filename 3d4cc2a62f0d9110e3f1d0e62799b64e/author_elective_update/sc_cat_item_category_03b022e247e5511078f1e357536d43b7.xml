@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="OTM login Details">fd91d26647a5511078f1e357536d43e8</sc_cat_item>
+        <sc_category display_value="Login details">94225e6647a5511078f1e357536d43e7</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-29 11:35:28</sys_created_on>
+        <sys_id>03b022e247e5511078f1e357536d43b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Login details.OTM login Details</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>sc_cat_item_category_03b022e247e5511078f1e357536d43b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-29 11:35:28</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</application>
+        <file_path/>
+        <instance_id>8b4d41c0db0a5f8c52e3f70fbf9619cf</instance_id>
+        <instance_name>dev58675</instance_name>
+        <name>sc_cat_item_category_03b022e247e5511078f1e357536d43b7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="OTM login Details">fd91d26647a5511078f1e357536d43e8</sc_cat_item><sc_category display_value="Login details">94225e6647a5511078f1e357536d43e7</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-29 11:35:28</sys_created_on><sys_id>03b022e247e5511078f1e357536d43b7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Login details.OTM login Details</sys_name><sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package><sys_policy/><sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope><sys_update_name>sc_cat_item_category_03b022e247e5511078f1e357536d43b7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-29 11:35:28</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1052634792</payload_hash>
+        <record_name>Login details.OTM login Details</record_name>
+        <reverted_from/>
+        <source>6db4bcaf2f019510e3f1d0e62799b620</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-29 11:35:28</sys_created_on>
+        <sys_id>0bb022e247e5511078f1e357536d43c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182e962960b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-29 11:35:28</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>4fb022e25de5511054a5272801cf7ec1</update_guid>
+        <update_guid_history>4fb022e25de5511054a5272801cf7ec1:1052634792</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Login details.OTM login Details">d8d0a2e247e5511078f1e357536d4375</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-29 11:35:50</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>738c360f9c4142f990914dc5f10e12a9</sys_id>
+        <sys_metadata>03b022e247e5511078f1e357536d43b7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Login details.OTM login Details</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_scope_delete display_value="">02239a22c93b4790af8e02f6efb4fe10</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_03b022e247e5511078f1e357536d43b7</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_03b022e247e5511078f1e357536d43b7">0bb022e247e5511078f1e357536d43c2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-29 11:35:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="user_name" label="User Email" language="en" table="x_820118_otm_login_table">
+    <sys_documentation element="number" label="Number" language="en" table="x_820118_otm_enter_login_details">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>user_name</element>
+            <element>number</element>
             <help/>
             <hint/>
-            <label>User Email</label>
+            <label>Number</label>
             <language>en</language>
-            <name>x_820118_otm_login_table</name>
-            <plural>User Emails</plural>
+            <name>x_820118_otm_enter_login_details</name>
+            <plural>Numbers</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-04 13:43:46</sys_created_on>
-            <sys_id>a25e822e2f0d9110e3f1d0e62799b677</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>User Email</sys_name>
+            <sys_created_on>2022-08-29 09:03:58</sys_created_on>
+            <sys_id>bb0e7da24765511078f1e357536d43fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Number</sys_name>
             <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
             <sys_policy/>
             <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
-            <sys_update_name>sys_documentation_x_820118_otm_login_table_user_name_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_820118_otm_enter_login_details_number_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-29 08:59:06</sys_updated_on>
+            <sys_updated_on>2022-08-29 09:03:58</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

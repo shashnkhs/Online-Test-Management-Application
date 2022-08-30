@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Enter Login Details" max_length="40" name="x_820118_otm_enter_login_details" sizeclass="4" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Password" max_length="40" name="password" type="string"/>
+        <element label="User Email" max_length="40" name="user_email" type="string"/>
+    </element>
+</database>

@@ -2,9 +2,9 @@
     <sp_instance_link action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
-        <color>info</color>
+        <color>warning</color>
         <css/>
-        <glyph>user</glyph>
+        <glyph>inbox</glyph>
         <id/>
         <kb_article/>
         <kb_category/>
@@ -15,24 +15,24 @@
         <sc_category/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="2">cf921a222f4d9110e3f1d0e62799b690</sp_column>
-        <sp_page display_value="enter_login_details_page">a432cea64765511078f1e357536d438a</sp_page>
+        <sp_column display_value="1">a751aee247e5511078f1e357536d4362</sp_column>
+        <sp_page/>
         <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-08-04 14:00:10</sys_created_on>
-        <sys_id>ba125eee2f0d9110e3f1d0e62799b6c0</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>User</sys_name>
+        <sys_created_on>2022-08-29 11:38:20</sys_created_on>
+        <sys_id>b861eae247e5511078f1e357536d43f7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Login Details with Catalog</sys_name>
         <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
-        <sys_update_name>sp_instance_link_ba125eee2f0d9110e3f1d0e62799b6c0</sys_update_name>
+        <sys_update_name>sp_instance_link_b861eae247e5511078f1e357536d43f7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-29 10:22:50</sys_updated_on>
-        <title>User</title>
-        <type>page</type>
-        <url/>
+        <sys_updated_on>2022-08-29 11:39:12</sys_updated_on>
+        <title>Login Details with Catalog</title>
+        <type>url</type>
+        <url>https://dev58675.service-now.com/nav_to.do?uri=%2Fcom.glideapp.servicecatalog_cat_item_view.do%3Fv%3D1%26sysparm_id%3Dfd91d26647a5511078f1e357536d43e8%26sysparm_link_parent%3D94225e6647a5511078f1e357536d43e7%26sysparm_catalog%3De0d08b13c3330100c8b837659bb</url>
         <widget_parameters><![CDATA[{
 	"link_template": {
 		"value": "Circle Icon",
@@ -40,5 +40,5 @@
 	}
 }]]></widget_parameters>
     </sp_instance_link>
-    <sys_translated_text action="delete_multiple" query="documentkey=ba125eee2f0d9110e3f1d0e62799b6c0"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=b861eae247e5511078f1e357536d43f7"/>
 </record_update>
