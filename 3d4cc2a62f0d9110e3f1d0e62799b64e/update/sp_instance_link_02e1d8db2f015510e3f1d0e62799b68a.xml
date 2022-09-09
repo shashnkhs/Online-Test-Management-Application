@@ -2,7 +2,7 @@
     <sp_instance_link action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
-        <color>default</color>
+        <color>primary</color>
         <css/>
         <glyph>list-alt</glyph>
         <id/>
@@ -15,21 +15,21 @@
         <sc_category/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="1">8943981f2f015510e3f1d0e62799b68a</sp_column>
+        <sp_column display_value="1">a17b86ca47b1111078f1e357536d43b6</sp_column>
         <sp_page display_value="otm_test_lists_page">8a445c5f2f015510e3f1d0e62799b659</sp_page>
         <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-06 12:35:30</sys_created_on>
         <sys_id>02e1d8db2f015510e3f1d0e62799b68a</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Test Result Lists</sys_name>
         <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
         <sys_update_name>sp_instance_link_02e1d8db2f015510e3f1d0e62799b68a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-06 13:10:58</sys_updated_on>
+        <sys_updated_on>2022-09-09 07:07:34</sys_updated_on>
         <title>Test Result Lists</title>
         <type>page</type>
         <url/>

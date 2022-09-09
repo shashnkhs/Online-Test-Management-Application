@@ -2,7 +2,7 @@
     <sp_instance_link action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
-        <color>danger</color>
+        <color>warning</color>
         <css/>
         <glyph>check</glyph>
         <id/>
@@ -15,21 +15,21 @@
         <sc_category/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="4">8943505f2f015510e3f1d0e62799b61e</sp_column>
+        <sp_column display_value="4">697b86ca47b1111078f1e357536d43bb</sp_column>
         <sp_page/>
         <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-06 12:40:23</sys_created_on>
         <sys_id>ad0394db2f015510e3f1d0e62799b637</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Add Tests</sys_name>
         <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
         <sys_update_name>sp_instance_link_ad0394db2f015510e3f1d0e62799b637</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-07 10:30:33</sys_updated_on>
+        <sys_updated_on>2022-09-09 07:08:08</sys_updated_on>
         <title>Add Tests</title>
         <type>url</type>
         <url>https://dev58675.service-now.com/nav_to.do?uri=%2Fcom.glideapp.servicecatalog_cat_item_view.do%3Fv%3D1%26sysparm_id%3D70fcf8e72f419510e3f1d0e62799b678%26sysparm_link_parent%3Dfe1bbc672f419510e3f1d0e62799b6fe%26sysparm_catalog%3De0d08b13c3330100c8b837659bb</url>
