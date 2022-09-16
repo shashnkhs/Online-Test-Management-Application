@@ -22,17 +22,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-29 09:24:36</sys_created_on>
         <sys_id>0ec24ae64765511078f1e357536d4364</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>LOGIN DETAILS</sys_name>
         <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
         <sys_update_name>sp_instance_link_0ec24ae64765511078f1e357536d4364</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-29 10:26:40</sys_updated_on>
+        <sys_updated_on>2022-09-16 06:26:56</sys_updated_on>
         <title>LOGIN DETAILS</title>
         <type>url</type>
-        <url>https://dev58675.service-now.com/nav_to.do?uri=%2Fx_820118_otm_enter_login_details.do%3Fsys_id%3D-1%26sys_is_list%3Dtrue%26sys_target%3Dx_820118_otm_enter_login_details%26sysparm_checked_items%3D%26sysparm_fixed_query%3D%26sysparm_group_sort%3D%26sysparm_</url>
+        <url>https://dev54554.service-now.com/now/nav/ui/classic/params/target/x_820118_otm_login_table.do%3Fsys_id%3D-1%26sys_is_list%3Dtrue%26sys_target%3Dx_820118_otm_login_table%26sysparm_checked_items%3D%26sysparm_fixed_query%3D%26sysparm_group_sort%3D%26sysparm_</url>
         <widget_parameters><![CDATA[{
 	"link_template": {
 		"value": "Circle Icon",

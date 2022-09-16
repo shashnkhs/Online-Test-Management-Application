@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Adding Tests Table" max_length="40" name="x_820118_otm_adding_tests_table" sizeclass="4" type="collection">
+    <element label="Adding Tests Table" max_length="40" name="x_820118_otm_adding_tests_table" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Test ID" max_length="40" name="number" type="string"/>
         <element label="Test Duration" max_length="40" name="test_duration" type="glide_time"/>
         <element label="Test ID" max_length="40" name="test_id" type="integer"/>
         <element display="true" label="Test Name" max_length="40" name="test_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
     </element>
 </database>
