@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description/>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>landing</landing_path>
+        <name>Online Test Management Portal Config</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-21 09:51:42</sys_created_on>
+        <sys_id>ca85600a1b0a9510c114fcc8cc4bcbf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Online Test Management Portal Config</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>sys_ux_app_config_ca85600a1b0a9510c114fcc8cc4bcbf6</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-21 09:51:42</sys_updated_on>
+    </sys_ux_app_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=ca85600a1b0a9510c114fcc8cc4bcbf6"/>
+</record_update>

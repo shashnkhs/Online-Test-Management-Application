@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "calendar_report_1",
+  "elementLabel" : "Calendar Report 1",
+  "propertyValues" : {
+    "table" : {
+      "type" : "JSON_LITERAL",
+      "value" : "x_820118_otm_test_table"
+    },
+    "reportSource" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "encodedQuery" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "startDateField" : {
+      "type" : "JSON_LITERAL",
+      "value" : "start_date"
+    },
+    "endDateField" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "eventDisplayFields" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "componentTitle" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "ServiceNow Calendar",
+        "comment" : ""
+      }
+    },
+    "disableFollowFilters" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideFilterOverview" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideDescription" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "componentDescription" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "viewType" : {
+      "type" : "JSON_LITERAL",
+      "value" : "MONTH"
+    },
+    "eventColor" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "filterConfigurations" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "parFilters" ]
+      }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "259e0221ff18a75c5f5f0fb28fa5d32f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "calendar_report_2",
+  "elementLabel" : "Calendar Report 2",
+  "propertyValues" : {
+    "table" : {
+      "type" : "JSON_LITERAL",
+      "value" : "x_820118_otm_aws_test_table"
+    },
+    "reportSource" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "encodedQuery" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "startDateField" : {
+      "type" : "JSON_LITERAL",
+      "value" : "start_date"
+    },
+    "endDateField" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "eventDisplayFields" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "componentTitle" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "AWS Test Calendar",
+        "comment" : ""
+      }
+    },
+    "disableFollowFilters" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideFilterOverview" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideDescription" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "componentDescription" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "viewType" : {
+      "type" : "JSON_LITERAL",
+      "value" : "MONTH"
+    },
+    "eventColor" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "filterConfigurations" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "parFilters" ]
+      }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "259e0221ff18a75c5f5f0fb28fa5d32f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : { }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <dispatched_events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"element_id":"calendar_report_1","styles":{}},{"element_id":"calendar_report_2","styles":{}}],
+    "root" : null,
+    "rules" : null,
+    "styles" : {"flex-direction":"column"},
+    "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+    "type" : "flex"
+  },
+  "version" : "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>OTM Test Calender</name>
+        <props>[ ]</props>
+        <required_translations>[ {
+  "message" : "AWS Test Calendar",
+  "comment" : ""
+}, {
+  "message" : "ServiceNow Calendar",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-21 10:50:52</sys_created_on>
+        <sys_id>75137c861b4a9510c114fcc8cc4bcb80</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>OTM Test Calender</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>sys_ux_macroponent_75137c861b4a9510c114fcc8cc4bcb80</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-21 13:13:09</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

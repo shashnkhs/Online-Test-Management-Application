@@ -16,20 +16,20 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-06 12:55:56</sys_created_on>
         <sys_id>d99610132f415510e3f1d0e62799b6cc</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
         <sys_update_name>sp_instance_d99610132f415510e3f1d0e62799b6cc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-06 13:24:54</sys_updated_on>
+        <sys_updated_on>2022-09-20 10:19:56</sys_updated_on>
         <title/>
         <url/>
         <widget_parameters><![CDATA[{
 	"href": {
-		"value": "",
-		"displayValue": ""
+		"value": "?id=form&table=com.glideapp.servicecatalog_cat_item_view",
+		"displayValue": "?id=form&table=com.glideapp.servicecatalog_cat_item_view"
 	},
 	"button_text": {
 		"value": "",

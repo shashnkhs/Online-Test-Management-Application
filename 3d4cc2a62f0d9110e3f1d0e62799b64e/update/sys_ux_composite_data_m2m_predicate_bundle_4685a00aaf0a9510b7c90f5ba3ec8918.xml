@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - Popular Articles">4285a00a700a9510ba954b78d3e7c31a</dataset>
+        <order/>
+        <predicate_bundle display_value="Popular articles bundle">8285a00a9a0a9510d6adf3675ca8af18</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-21 09:51:42</sys_created_on>
+        <sys_id>4685a00aaf0a9510b7c90f5ba3ec8918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_4685a00aaf0a9510b7c90f5ba3ec8918</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-21 09:51:42</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Online Test Management Portal Config">ca85600a1b0a9510c114fcc8cc4bcbf6</app_config>
+        <description/>
+        <fields/>
+        <icon/>
+        <name>Login Page</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>login-page</route_type>
+        <screen_type display_value="Login Page">e6d7e8ca1b0a9510c114fcc8cc4bcb41</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-21 10:01:47</sys_created_on>
+        <sys_id>7ed72cca1b0a9510c114fcc8cc4bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Login Page</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>sys_ux_app_route_7ed72cca1b0a9510c114fcc8cc4bcb9c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-21 10:01:47</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=7ed72cca1b0a9510c114fcc8cc4bcb9c"/>
+</record_update>

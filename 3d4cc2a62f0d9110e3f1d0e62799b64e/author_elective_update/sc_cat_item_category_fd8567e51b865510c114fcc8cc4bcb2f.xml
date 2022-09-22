@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Demo Record Producer">3805eba51b865510c114fcc8cc4bcb81</sc_cat_item>
+        <sc_category display_value="AWS Cloud Questions">9a40577e2f8dd110e3f1d0e62799b61a</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 10:33:30</sys_created_on>
+        <sys_id>fd8567e51b865510c114fcc8cc4bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AWS Cloud Questions.Demo Record Producer</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>sc_cat_item_category_fd8567e51b865510c114fcc8cc4bcb2f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-20 10:33:30</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</application>
+        <file_path/>
+        <instance_id>cfa30df7db4d53800e785d00cf96191d</instance_id>
+        <instance_name>dev54554</instance_name>
+        <name>sc_cat_item_category_fd8567e51b865510c114fcc8cc4bcb2f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Demo Record Producer">3805eba51b865510c114fcc8cc4bcb81</sc_cat_item><sc_category display_value="AWS Cloud Questions">9a40577e2f8dd110e3f1d0e62799b61a</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-20 10:33:30</sys_created_on><sys_id>fd8567e51b865510c114fcc8cc4bcb2f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AWS Cloud Questions.Demo Record Producer</sys_name><sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package><sys_policy/><sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope><sys_update_name>sc_cat_item_category_fd8567e51b865510c114fcc8cc4bcb2f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-20 10:33:30</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1131039301</payload_hash>
+        <record_name>AWS Cloud Questions.Demo Record Producer</record_name>
+        <reverted_from/>
+        <source>3fb379981bc61110c114fcc8cc4bcb6a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 10:33:30</sys_created_on>
+        <sys_id>358567e51b865510c114fcc8cc4bcb34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1835a75c3f30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-20 10:33:30</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>b98567e5f9865510e1a5a8afc306a033</update_guid>
+        <update_guid_history>b98567e5f9865510e1a5a8afc306a033:-1131039301</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="AWS Cloud Questions.Demo Record Producer">028567e51b865510c114fcc8cc4bcb4e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 10:33:31</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>503436d6ca434db0976493a441f87124</sys_id>
+        <sys_metadata>fd8567e51b865510c114fcc8cc4bcb2f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AWS Cloud Questions.Demo Record Producer</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_scope_delete display_value="">02239a22c93b4790af8e02f6efb4fe10</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_fd8567e51b865510c114fcc8cc4bcb2f</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_fd8567e51b865510c114fcc8cc4bcb2f">358567e51b865510c114fcc8cc4bcb34</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-20 10:33:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

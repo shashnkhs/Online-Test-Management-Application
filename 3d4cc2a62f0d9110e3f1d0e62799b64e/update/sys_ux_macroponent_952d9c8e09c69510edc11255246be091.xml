@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "005ec73453131010c5e2ddeeff7b1203_Column_1",
+  "elementLabel" : "Column 1",
+  "propertyValues" : {
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "stylized_container",
+      "elementLabel" : "Stylized Container",
+      "propertyValues" : {
+        "label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
+        },
+        "bare" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "type" : {
+          "type" : "JSON_LITERAL",
+          "value" : "default"
+        },
+        "bgvar" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "border" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "canCollapse" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "collapsed" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "size" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "disableDismiss" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "defer" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "collapseButtonTooltipContent" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Collapse container to hide contents",
+            "comment" : ""
+          }
+        },
+        "expandButtonTooltipContent" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Expand container to show contents",
+            "comment" : ""
+          }
+        },
+        "ariaRegionName" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
+        },
+        "includeAriaHeading" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "ariaRegionHeadingLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1"
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "80653115e23949b501e719ae9b0b42a6",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "rich_header",
+          "elementLabel" : "Rich Header",
+          "propertyValues" : {
+            "html" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"text-decoration: line-through;\"&gt;&lt;span style=\"text-decoration: underline;\"&gt;&lt;em&gt;&lt;span style=\"font-size: 48px; font-family: 'courier new', courier, monospace;\"&gt;&lt;strong&gt;Online Test Management&lt;/strong&gt;&lt;/span&gt;&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;",
+                "comment" : ""
+              }
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : null,
+          "definition" : {
+            "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isHero" : false,
+          "isNonDestructive" : false,
+          "styles" : { }
+        }, {
+          "elementId" : "login_1",
+          "elementLabel" : "Login 1",
+          "propertyValues" : {
+            "logoUrl" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "heading" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "Log in",
+                "comment" : ""
+              }
+            },
+            "destinationUrl" : {
+              "type" : "DATA_OUTPUT_BINDING",
+              "binding" : {
+                "address" : [ "chrome_state_for_app_shell_ui_1", "loginRedirectUrl" ]
+              }
+            },
+            "ssoLabel" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "Use SSO",
+                "comment" : ""
+              }
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : null,
+          "definition" : {
+            "id" : "b149d22fc772967dcde6c861d5e67397",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isHero" : false,
+          "isNonDestructive" : false,
+          "styles" : { }
+        } ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "isInline" : null,
+            "items" : [{"element_id":"rich_header","styles":{}},{"element_id":"login_1","styles":{}}],
+            "root" : null,
+            "rules" : null,
+            "styles" : {"flex-direction":"column"},
+            "templateId" : null,
+            "type" : "flex"
+          },
+          "version" : "3.0.0"
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : {
+        "background" : "rgb(var(--now-color--neutral-0))"
+      }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"rules":{},"styles":{},"element_id":"stylized_container"}],
+        "root" : null,
+        "rules" : {},
+        "styles" : {"flex-direction":"column","height":"100%"},
+        "templateId" : null,
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "005ec73453131010c5e2ddeeff7b1203_Column_2",
+  "elementLabel" : "Column 2",
+  "propertyValues" : {
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "login_wrapper",
+      "elementLabel" : "Login Wrapper",
+      "propertyValues" : {
+        "ariaRegionName" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
+        },
+        "includeAriaHeading" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "ariaRegionHeadingLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1"
+        },
+        "type" : {
+          "type" : "JSON_LITERAL",
+          "value" : "section"
+        },
+        "ariaRole" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "login_wrapper_Main",
+          "elementLabel" : "Main",
+          "propertyValues" : {
+            "ariaRegionName" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "",
+                "comment" : ""
+              }
+            },
+            "ariaRegionHeadingLevel" : {
+              "type" : "JSON_LITERAL",
+              "value" : "1"
+            },
+            "includeAriaHeading" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "type" : {
+              "type" : "JSON_LITERAL",
+              "value" : "section"
+            },
+            "ariaRole" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : null,
+          "definition" : {
+            "id" : "d356d14b6e293a3020a244b63d278d8f",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : {
+            "composition" : [ ],
+            "layout" : {
+              "default" : {
+                "children" : null,
+                "isInline" : null,
+                "items" : [{"rules":{},"styles":{},"element_id":"login_1"}],
+                "root" : null,
+                "rules" : {},
+                "styles" : {"flex-direction":"column","height":"100%"},
+                "templateId" : null,
+                "type" : "flex"
+              },
+              "version" : "3.0.0"
+            }
+          },
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "isHero" : false,
+          "isNonDestructive" : false,
+          "styles" : { }
+        } ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "isInline" : null,
+            "items" : [{"rules":{},"styles":{"max-width":"390px","margin":"auto","grid-area":"main"},"element_id":"login_wrapper_Main"}],
+            "root" : null,
+            "rules" : null,
+            "styles" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%","align-items":"center"},
+            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+            "type" : "grid"
+          },
+          "version" : "3.0.0"
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"rules":{},"styles":{},"element_id":"login_wrapper"}],
+        "root" : null,
+        "rules" : {},
+        "styles" : {"height":"100%","align-items":"center","justify-content":"center","display":"flex"},
+        "templateId" : null,
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : { }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "definition" : {
+    "id" : "7fc30640532110105a20ddeeff7b1276",
+    "type" : "CLIENT_STATE"
+  },
+  "elementId" : "chrome_state_for_app_shell_ui_1",
+  "elementLabel" : "Chrome State For App Shell UI 1",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "toolbarButtonsConfig" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "preferenceNames" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "processedUserPrefs" : null,
+    "notificationConfiguration" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "experienceId" : null
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
+        <dispatched_events>1d2d9c8e75c695101edbd1c489b89b91</dispatched_events>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"rules":{},"styles":{"background-color":"rgb(var(--now-color_grouped--blue-1))","background-position":"80% 80%","background-repeat":"no-repeat","background-size":"827px 465px","background-image":"url(custom_portal_login.svg)","grid-area":"column1"},"element_id":"005ec73453131010c5e2ddeeff7b1203_Column_1"},{"rules":{},"styles":{"grid-area":"column2"},"element_id":"005ec73453131010c5e2ddeeff7b1203_Column_2"},{"element_id":"login_1","styles":{}}],
+    "root" : null,
+    "rules" : null,
+    "styles" : {"grid-template-rows":"minmax(600px,auto)","grid-template-columns":"2fr 1fr","grid-template-areas":"\"column1 column2\"","grid-gap":"2rem","height":"100%"},
+    "templateId" : "8374fc8153831010e6bcddeeff7b1267",
+    "type" : "grid"
+  },
+  "version" : "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Login</name>
+        <props>[ ]</props>
+        <required_translations>[ {
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"text-decoration: line-through;\"&gt;&lt;span style=\"text-decoration: underline;\"&gt;&lt;em&gt;&lt;span style=\"font-size: 48px; font-family: 'courier new', courier, monospace;\"&gt;&lt;strong&gt;Online Test Management&lt;/strong&gt;&lt;/span&gt;&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
+  "message" : "Collapse container to hide contents",
+  "comment" : ""
+}, {
+  "message" : "Expand container to show contents",
+  "comment" : ""
+}, {
+  "message" : "Log in",
+  "comment" : ""
+}, {
+  "message" : "Use SSO",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-21 09:15:06</sys_created_on>
+        <sys_id>952d9c8e09c69510edc11255246be091</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Login</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>sys_ux_macroponent_952d9c8e09c69510edc11255246be091</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-21 09:42:05</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

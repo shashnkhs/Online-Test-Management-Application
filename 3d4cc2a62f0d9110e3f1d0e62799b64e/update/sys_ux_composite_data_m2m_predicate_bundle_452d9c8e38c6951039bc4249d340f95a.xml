@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Catalog Item page - Related Items dataset">892d9c8e32c69510224431eca86af65b</dataset>
+        <order/>
+        <predicate_bundle display_value="Custom portal - Related items">0d2d9c8e57c695106de2fd3fa5a3b45a</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-21 09:15:02</sys_created_on>
+        <sys_id>452d9c8e38c6951039bc4249d340f95a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_452d9c8e38c6951039bc4249d340f95a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-21 09:15:02</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>

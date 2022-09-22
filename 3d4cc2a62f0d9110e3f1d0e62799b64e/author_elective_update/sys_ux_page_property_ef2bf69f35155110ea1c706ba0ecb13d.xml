@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_footer</name>
+        <page display_value="Online Test Management system">6b2bf69f76155110071ef4336af66b3b</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-08-19 11:10:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ef2bf69f35155110ea1c706ba0ecb13d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_footer</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>sys_ux_page_property_ef2bf69f35155110ea1c706ba0ecb13d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-19 11:10:51</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_820118_otm.6b2bf69f76155110071ef4336af66b3b.root.chrome_footer</unique_name>
+        <value>{&#13;
+    "public_page":{&#13;
+       "enable_footer_topbar":false,&#13;
+       "footer_topbar_options":{&#13;
+          "enable_logo":false,&#13;
+          "enable_address": false,&#13;
+          "enable_linkset_group":false,&#13;
+          "max_linkset_count":0&#13;
+       },&#13;
+       "enable_footer_bar":true,&#13;
+       "footer_bar_options":{&#13;
+          "enable_links":true,&#13;
+          "max_links_count":5,&#13;
+          "enable_social_links":false,&#13;
+          "max_social_links_count":7,&#13;
+          "social_links":[],&#13;
+          "enable_copyright_text":true,&#13;
+          "copyright_text":"© 2020 Company Inc. All rights reserved."&#13;
+       }&#13;
+    }&#13;
+ }</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=ef2bf69f35155110ea1c706ba0ecb13d"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</application>
+        <file_path/>
+        <instance_id>cfa30df7db4d53800e785d00cf96191d</instance_id>
+        <instance_name>dev54554</instance_name>
+        <name>sys_ux_page_property_ef2bf69f35155110ea1c706ba0ecb13d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_footer</name>
+        <page display_value="Online Test Management system">6b2bf69f76155110071ef4336af66b3b</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-08-19 11:10:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ef2bf69f35155110ea1c706ba0ecb13d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_footer</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>sys_ux_page_property_ef2bf69f35155110ea1c706ba0ecb13d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-19 11:10:51</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_820118_otm.6b2bf69f76155110071ef4336af66b3b.root.chrome_footer</unique_name>
+        <value>{&#13;
+    "public_page":{&#13;
+       "enable_footer_topbar":false,&#13;
+       "footer_topbar_options":{&#13;
+          "enable_logo":false,&#13;
+          "enable_address": false,&#13;
+          "enable_linkset_group":false,&#13;
+          "max_linkset_count":0&#13;
+       },&#13;
+       "enable_footer_bar":true,&#13;
+       "footer_bar_options":{&#13;
+          "enable_links":true,&#13;
+          "max_links_count":5,&#13;
+          "enable_social_links":false,&#13;
+          "max_social_links_count":7,&#13;
+          "social_links":[],&#13;
+          "enable_copyright_text":true,&#13;
+          "copyright_text":"© 2020 Company Inc. All rights reserved."&#13;
+       }&#13;
+    }&#13;
+ }</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=ef2bf69f35155110ea1c706ba0ecb13d"/>
+</record_update>]]></payload>
+        <payload_hash>-1185219045</payload_hash>
+        <record_name>chrome_footer</record_name>
+        <reverted_from/>
+        <source>ff5ba1d01bc61110c114fcc8cc4bcbc2</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-16 04:29:44</sys_created_on>
+        <sys_id>caeba5941bc61110c114fcc8cc4bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183448f48930000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-16 04:29:44</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>8aeba59423c611107579db77adcf2edf</update_guid>
+        <update_guid_history>8aeba59423c611107579db77adcf2edf:-1185219045</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-21 09:10:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>576c427d39d644729c4613375d84d3d1</sys_id>
+        <sys_metadata>ef2bf69f35155110ea1c706ba0ecb13d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_footer</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_scope_delete display_value="">02239a22c93b4790af8e02f6efb4fe10</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_ef2bf69f35155110ea1c706ba0ecb13d</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_ef2bf69f35155110ea1c706ba0ecb13d">caeba5941bc61110c114fcc8cc4bcbdf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-21 09:10:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

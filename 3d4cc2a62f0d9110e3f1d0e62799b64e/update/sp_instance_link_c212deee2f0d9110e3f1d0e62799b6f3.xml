@@ -2,7 +2,7 @@
     <sp_instance_link action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
-        <color>info</color>
+        <color>success</color>
         <css/>
         <glyph>user</glyph>
         <id/>
@@ -15,21 +15,21 @@
         <sc_category/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="1">43921a222f4d9110e3f1d0e62799b68f</sp_column>
+        <sp_column display_value="1">21f5d6691b425510c114fcc8cc4bcb44</sp_column>
         <sp_page display_value="otm_admin_display_page">0a0154d72f015510e3f1d0e62799b635</sp_page>
         <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-04 14:00:08</sys_created_on>
         <sys_id>c212deee2f0d9110e3f1d0e62799b6f3</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Admin</sys_name>
         <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
         <sys_update_name>sp_instance_link_c212deee2f0d9110e3f1d0e62799b6f3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-06 12:44:49</sys_updated_on>
+        <sys_updated_on>2022-09-20 04:53:25</sys_updated_on>
         <title>Admin</title>
         <type>page</type>
         <url/>

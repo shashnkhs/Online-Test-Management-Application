@@ -1,0 +1,1274 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "rich_text_1",
+  "elementLabel" : "Rich text 1",
+  "propertyValues" : {
+    "html" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"text-decoration: line-through;\"&gt;&lt;span style=\"text-decoration: underline;\"&gt;&lt;em&gt;&lt;strong&gt;&lt;span style=\"font-family: 'courier new', courier, monospace; font-size: 36pt;\"&gt;Online Test Management&lt;/span&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 24pt;\"&gt;&lt;span style=\"text-decoration: underline;\"&gt;&lt;em&gt;&lt;strong&gt;&lt;span style=\"font-family: 'courier new', courier, monospace;\"&gt;Admin Page&lt;/span&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;",
+        "comment" : ""
+      }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : {
+    "background" : "rgb(var(--now-color--secondary-0))"
+  }
+}, {
+  "elementId" : "rich_text_2",
+  "elementLabel" : "Rich text 2",
+  "propertyValues" : {
+    "html" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"text-decoration: line-through;\"&gt;&lt;span style=\"text-decoration: underline;\"&gt;&lt;em&gt;&lt;strong&gt;&lt;span style=\"font-size: 36pt; font-family: 'courier new', courier, monospace;\"&gt;Online Test Management&lt;/span&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 24pt;\"&gt;&lt;span style=\"text-decoration: underline;\"&gt;&lt;em&gt;&lt;strong&gt;&lt;span style=\"font-family: 'courier new', courier, monospace;\"&gt;User Page&lt;/span&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;",
+        "comment" : ""
+      }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : {
+    "background" : "rgb(var(--now-color--secondary-0))"
+  }
+}, {
+  "elementId" : "card_base_container_1",
+  "elementLabel" : "Card Base Container 1",
+  "propertyValues" : {
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : "lg"
+    },
+    "interaction" : {
+      "type" : "JSON_LITERAL",
+      "value" : "none"
+    },
+    "selected" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "sidebar" : {
+      "type" : "JSON_LITERAL",
+      "value" : { }
+    },
+    "configAria" : {
+      "type" : "MAP_CONTAINER",
+      "container" : { }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "e772e788e32ce32b8daa2ac7b092d2c6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "button_1",
+      "elementLabel" : "Button 1",
+      "propertyValues" : {
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "primary-positive"
+        },
+        "size" : {
+          "type" : "JSON_LITERAL",
+          "value" : "lg"
+        },
+        "label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Test Result List",
+            "comment" : ""
+          }
+        },
+        "icon" : {
+          "type" : "JSON_LITERAL",
+          "value" : "score-list-outline"
+        },
+        "disabled" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "tooltipContent" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Enter a label",
+            "comment" : ""
+          }
+        },
+        "configAria" : {
+          "type" : "MAP_CONTAINER",
+          "container" : { }
+        }
+      },
+      "eventMappings" : [ {
+        "eventMappingId" : "cliibhaccmeeaacdwddffhheefccjjggjyql",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : null,
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "x_820118_otm.NAV_ITEM_SELECTED_RELAY_4119ecca1b0a9510c114fcc8cc4bcbac",
+            "payload" : {
+              "type" : "JSON_LITERAL",
+              "value" : {
+                "route" : "test-result-list-page",
+                "fields" : null,
+                "params" : null,
+                "redirect" : null,
+                "passiveNavigation" : null,
+                "title" : null,
+                "multiInstField" : null,
+                "targetRoute" : null,
+                "external" : null
+              }
+            },
+            "sysId" : "2cfaec4e1b0a9510c114fcc8cc4bcbdb"
+          },
+          "operation" : null,
+          "targetId" : "cliibhaccmeeaacdxddffhheerahhddednjj",
+          "type" : "EVENT"
+        } ]
+      } ],
+      "slot" : null,
+      "definition" : {
+        "id" : "d37ce8abca89d02905fed903c8e34d8e",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"button_1","styles":{}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "card_base_container_2",
+  "elementLabel" : "Card Base Container 2",
+  "propertyValues" : {
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : "lg"
+    },
+    "interaction" : {
+      "type" : "JSON_LITERAL",
+      "value" : "none"
+    },
+    "selected" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "sidebar" : {
+      "type" : "JSON_LITERAL",
+      "value" : { }
+    },
+    "configAria" : {
+      "type" : "MAP_CONTAINER",
+      "container" : { }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "e772e788e32ce32b8daa2ac7b092d2c6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "button_2",
+      "elementLabel" : "Button 2",
+      "propertyValues" : {
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "secondary-positive"
+        },
+        "size" : {
+          "type" : "JSON_LITERAL",
+          "value" : "lg"
+        },
+        "label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Result Dashboard",
+            "comment" : ""
+          }
+        },
+        "icon" : {
+          "type" : "JSON_LITERAL",
+          "value" : "chart-bar-column-fill"
+        },
+        "disabled" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "tooltipContent" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Enter a label",
+            "comment" : ""
+          }
+        },
+        "configAria" : {
+          "type" : "MAP_CONTAINER",
+          "container" : { }
+        }
+      },
+      "eventMappings" : [ {
+        "eventMappingId" : "cliibiggnaacaahekddffhheeuffcnxvebb",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : null,
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "x_820118_otm.NAV_ITEM_SELECTED_RELAY_4119ecca1b0a9510c114fcc8cc4bcbac",
+            "payload" : {
+              "type" : "JSON_LITERAL",
+              "value" : {
+                "route" : "result-dashboard-page",
+                "fields" : null,
+                "params" : null,
+                "redirect" : null,
+                "passiveNavigation" : null,
+                "title" : null,
+                "multiInstField" : null,
+                "targetRoute" : null,
+                "external" : null
+              }
+            },
+            "sysId" : "2cfaec4e1b0a9510c114fcc8cc4bcbdb"
+          },
+          "operation" : null,
+          "targetId" : "cliibiggnaadaahelddffhheecchhzeeirw",
+          "type" : "EVENT"
+        } ]
+      } ],
+      "slot" : null,
+      "definition" : {
+        "id" : "d37ce8abca89d02905fed903c8e34d8e",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"button_2","styles":{}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "card_base_container_3",
+  "elementLabel" : "Card Base Container 3",
+  "propertyValues" : {
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : "lg"
+    },
+    "interaction" : {
+      "type" : "JSON_LITERAL",
+      "value" : "none"
+    },
+    "selected" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "sidebar" : {
+      "type" : "JSON_LITERAL",
+      "value" : { }
+    },
+    "configAria" : {
+      "type" : "MAP_CONTAINER",
+      "container" : { }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "e772e788e32ce32b8daa2ac7b092d2c6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "button_3",
+      "elementLabel" : "Button 3",
+      "propertyValues" : {
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "primary-negative"
+        },
+        "size" : {
+          "type" : "JSON_LITERAL",
+          "value" : "lg"
+        },
+        "label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Test Calender",
+            "comment" : ""
+          }
+        },
+        "icon" : {
+          "type" : "JSON_LITERAL",
+          "value" : "calendar-outline"
+        },
+        "disabled" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "tooltipContent" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Enter a label",
+            "comment" : ""
+          }
+        },
+        "configAria" : {
+          "type" : "MAP_CONTAINER",
+          "container" : { }
+        }
+      },
+      "eventMappings" : [ {
+        "eventMappingId" : "cliibniizzbaaccccuddffhheeshwtjjfxd",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : null,
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "x_820118_otm.NAV_ITEM_SELECTED_RELAY_4119ecca1b0a9510c114fcc8cc4bcbac",
+            "payload" : {
+              "type" : "JSON_LITERAL",
+              "value" : {
+                "route" : "otm-test-calender",
+                "fields" : null,
+                "params" : null,
+                "redirect" : null,
+                "passiveNavigation" : null,
+                "title" : null,
+                "multiInstField" : null,
+                "targetRoute" : null,
+                "external" : null
+              }
+            },
+            "sysId" : "2cfaec4e1b0a9510c114fcc8cc4bcbdb"
+          },
+          "operation" : null,
+          "targetId" : "cliibniizzcaaccccvddffhheeggiidxbbddsgg",
+          "type" : "EVENT"
+        } ]
+      } ],
+      "slot" : null,
+      "definition" : {
+        "id" : "d37ce8abca89d02905fed903c8e34d8e",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"button_3","styles":{}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "card_base_container_4",
+  "elementLabel" : "Card Base Container 4",
+  "propertyValues" : {
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : "lg"
+    },
+    "interaction" : {
+      "type" : "JSON_LITERAL",
+      "value" : "none"
+    },
+    "selected" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "sidebar" : {
+      "type" : "JSON_LITERAL",
+      "value" : { }
+    },
+    "configAria" : {
+      "type" : "MAP_CONTAINER",
+      "container" : { }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "e772e788e32ce32b8daa2ac7b092d2c6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "button_4",
+      "elementLabel" : "Button 4",
+      "propertyValues" : {
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "secondary-negative"
+        },
+        "size" : {
+          "type" : "JSON_LITERAL",
+          "value" : "lg"
+        },
+        "label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Test Lists",
+            "comment" : ""
+          }
+        },
+        "icon" : {
+          "type" : "JSON_LITERAL",
+          "value" : "list-marker-outline"
+        },
+        "disabled" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "tooltipContent" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Enter a label",
+            "comment" : ""
+          }
+        },
+        "configAria" : {
+          "type" : "MAP_CONTAINER",
+          "container" : { }
+        }
+      },
+      "eventMappings" : [ {
+        "eventMappingId" : "cliibnghhxbaaggeepddffhheeohhgiiqpnb",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : null,
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "x_820118_otm.NAV_ITEM_SELECTED_RELAY_4119ecca1b0a9510c114fcc8cc4bcbac",
+            "payload" : {
+              "type" : "JSON_LITERAL",
+              "value" : {
+                "route" : "test-lists-page",
+                "fields" : null,
+                "params" : null,
+                "redirect" : null,
+                "passiveNavigation" : null,
+                "title" : null,
+                "multiInstField" : null,
+                "targetRoute" : null,
+                "external" : null
+              }
+            },
+            "sysId" : "2cfaec4e1b0a9510c114fcc8cc4bcbdb"
+          },
+          "operation" : null,
+          "targetId" : "cliibnghhxbaaggeeqddffhheedjjlcjjmtw",
+          "type" : "EVENT"
+        } ]
+      } ],
+      "slot" : null,
+      "definition" : {
+        "id" : "d37ce8abca89d02905fed903c8e34d8e",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"button_4","styles":{}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "card_base_container_5",
+  "elementLabel" : "Card Base Container 5",
+  "propertyValues" : {
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : "lg"
+    },
+    "interaction" : {
+      "type" : "JSON_LITERAL",
+      "value" : "none"
+    },
+    "selected" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "sidebar" : {
+      "type" : "JSON_LITERAL",
+      "value" : { }
+    },
+    "configAria" : {
+      "type" : "MAP_CONTAINER",
+      "container" : { }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "e772e788e32ce32b8daa2ac7b092d2c6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "button_5",
+      "elementLabel" : "Button 5",
+      "propertyValues" : {
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "secondary"
+        },
+        "size" : {
+          "type" : "JSON_LITERAL",
+          "value" : "lg"
+        },
+        "label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Add Test",
+            "comment" : ""
+          }
+        },
+        "icon" : {
+          "type" : "JSON_LITERAL",
+          "value" : "document-plus-fill"
+        },
+        "disabled" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "tooltipContent" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Enter a label",
+            "comment" : ""
+          }
+        },
+        "configAria" : {
+          "type" : "MAP_CONTAINER",
+          "container" : { }
+        }
+      },
+      "eventMappings" : [ {
+        "eventMappingId" : "cliibnmddeeiiaajjffeddffhheeggomggfqfcc",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : null,
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "x_820118_otm.NAV_ITEM_SELECTED_RELAY_4119ecca1b0a9510c114fcc8cc4bcbac",
+            "payload" : {
+              "type" : "JSON_LITERAL",
+              "value" : {
+                "route" : "add-test-page",
+                "fields" : null,
+                "params" : null,
+                "redirect" : null,
+                "passiveNavigation" : null,
+                "title" : null,
+                "multiInstField" : null,
+                "targetRoute" : null,
+                "external" : null
+              }
+            },
+            "sysId" : "2cfaec4e1b0a9510c114fcc8cc4bcbdb"
+          },
+          "operation" : null,
+          "targetId" : "cliibnmddeeiiaajjfffddffhheebwtmuyffdd",
+          "type" : "EVENT"
+        } ]
+      } ],
+      "slot" : null,
+      "definition" : {
+        "id" : "d37ce8abca89d02905fed903c8e34d8e",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"button_5","styles":{}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "card_base_divider_1",
+  "elementLabel" : "Card Base Divider 1",
+  "propertyValues" : {
+    "fullWidth" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "blockSpacing" : {
+      "type" : "JSON_LITERAL",
+      "value" : "lg"
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "16896fa0f6eed87cc23b4c1a4752a35f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "card_base_container_6",
+  "elementLabel" : "Card Base Container 6",
+  "propertyValues" : {
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : "lg"
+    },
+    "interaction" : {
+      "type" : "JSON_LITERAL",
+      "value" : "none"
+    },
+    "selected" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "sidebar" : {
+      "type" : "JSON_LITERAL",
+      "value" : { }
+    },
+    "configAria" : {
+      "type" : "MAP_CONTAINER",
+      "container" : { }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "e772e788e32ce32b8daa2ac7b092d2c6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "button_8",
+      "elementLabel" : "Button 8",
+      "propertyValues" : {
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "secondary-negative"
+        },
+        "size" : {
+          "type" : "JSON_LITERAL",
+          "value" : "lg"
+        },
+        "label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Azure Test",
+            "comment" : ""
+          }
+        },
+        "icon" : {
+          "type" : "JSON_LITERAL",
+          "value" : "arrow-up-right-outline"
+        },
+        "disabled" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "tooltipContent" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Enter a label",
+            "comment" : ""
+          }
+        },
+        "configAria" : {
+          "type" : "MAP_CONTAINER",
+          "container" : { }
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "d37ce8abca89d02905fed903c8e34d8e",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"button_8","styles":{}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "card_base_container_7",
+  "elementLabel" : "Card Base Container 7",
+  "propertyValues" : {
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : "lg"
+    },
+    "interaction" : {
+      "type" : "JSON_LITERAL",
+      "value" : "none"
+    },
+    "selected" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "sidebar" : {
+      "type" : "JSON_LITERAL",
+      "value" : { }
+    },
+    "configAria" : {
+      "type" : "MAP_CONTAINER",
+      "container" : { }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "e772e788e32ce32b8daa2ac7b092d2c6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "button_7",
+      "elementLabel" : "Button 7",
+      "propertyValues" : {
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "secondary-positive"
+        },
+        "size" : {
+          "type" : "JSON_LITERAL",
+          "value" : "lg"
+        },
+        "label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "AWS Test",
+            "comment" : ""
+          }
+        },
+        "icon" : {
+          "type" : "JSON_LITERAL",
+          "value" : "arrow-up-right-outline"
+        },
+        "disabled" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "tooltipContent" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Enter a label",
+            "comment" : ""
+          }
+        },
+        "configAria" : {
+          "type" : "MAP_CONTAINER",
+          "container" : { }
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "d37ce8abca89d02905fed903c8e34d8e",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"button_7","styles":{}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "card_base_container_8",
+  "elementLabel" : "Card Base Container 8",
+  "propertyValues" : {
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : "lg"
+    },
+    "interaction" : {
+      "type" : "JSON_LITERAL",
+      "value" : "none"
+    },
+    "selected" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "sidebar" : {
+      "type" : "JSON_LITERAL",
+      "value" : { }
+    },
+    "configAria" : {
+      "type" : "MAP_CONTAINER",
+      "container" : { }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "e772e788e32ce32b8daa2ac7b092d2c6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "button_6",
+      "elementLabel" : "Button 6",
+      "propertyValues" : {
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "primary-positive"
+        },
+        "size" : {
+          "type" : "JSON_LITERAL",
+          "value" : "lg"
+        },
+        "label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "ServiceNow Test",
+            "comment" : ""
+          }
+        },
+        "icon" : {
+          "type" : "JSON_LITERAL",
+          "value" : "arrow-up-right-outline"
+        },
+        "disabled" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "tooltipContent" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Enter a label",
+            "comment" : ""
+          }
+        },
+        "configAria" : {
+          "type" : "MAP_CONTAINER",
+          "container" : { }
+        }
+      },
+      "eventMappings" : [ {
+        "eventMappingId" : "cliibpbbbufaaeebsddffhheebbhfqrbbbv",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : null,
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "x_820118_otm.NAV_ITEM_SELECTED_RELAY_4119ecca1b0a9510c114fcc8cc4bcbac",
+            "payload" : {
+              "type" : "JSON_LITERAL",
+              "value" : {
+                "route" : "servicenow-test-page",
+                "fields" : null,
+                "params" : null,
+                "redirect" : null,
+                "passiveNavigation" : null,
+                "title" : null,
+                "multiInstField" : null,
+                "targetRoute" : null,
+                "external" : null
+              }
+            },
+            "sysId" : "2cfaec4e1b0a9510c114fcc8cc4bcbdb"
+          },
+          "operation" : null,
+          "targetId" : "cliibpbbbufaaeebtddffhheeaashhiiisdcc",
+          "type" : "EVENT"
+        } ]
+      } ],
+      "slot" : null,
+      "definition" : {
+        "id" : "d37ce8abca89d02905fed903c8e34d8e",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"button_6","styles":{}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : { }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <dispatched_events>2cfaec4e1b0a9510c114fcc8cc4bcbdb</dispatched_events>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"element_id":"rich_text_1","styles":{}},{"element_id":"button_1","styles":{}},{"element_id":"card_base_container_1","styles":{}},{"element_id":"card_base_container_2","styles":{}},{"element_id":"card_base_container_3","styles":{}},{"element_id":"card_base_container_4","styles":{}},{"element_id":"card_base_container_5","styles":{}},{"element_id":"button_2","styles":{}},{"element_id":"button_3","styles":{}},{"element_id":"button_4","styles":{}},{"element_id":"button_5","styles":{}},{"element_id":"card_base_divider_1","styles":{}},{"element_id":"rich_text_2","styles":{}},{"element_id":"card_base_container_8","styles":{}},{"element_id":"card_base_container_7","styles":{}},{"element_id":"card_base_container_6","styles":{}},{"element_id":"button_6","styles":{}},{"element_id":"button_7","styles":{}},{"element_id":"button_8","styles":{}}],
+    "root" : null,
+    "rules" : null,
+    "styles" : {"flex-direction":"column"},
+    "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+    "type" : "flex"
+  },
+  "version" : "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Admin Page</name>
+        <props>[ ]</props>
+        <required_translations>[ {
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"text-decoration: line-through;\"&gt;&lt;span style=\"text-decoration: underline;\"&gt;&lt;em&gt;&lt;strong&gt;&lt;span style=\"font-family: 'courier new', courier, monospace; font-size: 36pt;\"&gt;Online Test Management&lt;/span&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 24pt;\"&gt;&lt;span style=\"text-decoration: underline;\"&gt;&lt;em&gt;&lt;strong&gt;&lt;span style=\"font-family: 'courier new', courier, monospace;\"&gt;Admin Page&lt;/span&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"text-decoration: line-through;\"&gt;&lt;span style=\"text-decoration: underline;\"&gt;&lt;em&gt;&lt;strong&gt;&lt;span style=\"font-size: 36pt; font-family: 'courier new', courier, monospace;\"&gt;Online Test Management&lt;/span&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 24pt;\"&gt;&lt;span style=\"text-decoration: underline;\"&gt;&lt;em&gt;&lt;strong&gt;&lt;span style=\"font-family: 'courier new', courier, monospace;\"&gt;User Page&lt;/span&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
+  "message" : "AWS Test",
+  "comment" : ""
+}, {
+  "message" : "Add Test",
+  "comment" : ""
+}, {
+  "message" : "Azure Test",
+  "comment" : ""
+}, {
+  "message" : "Enter a label",
+  "comment" : ""
+}, {
+  "message" : "Result Dashboard",
+  "comment" : ""
+}, {
+  "message" : "ServiceNow Test",
+  "comment" : ""
+}, {
+  "message" : "Test Calender",
+  "comment" : ""
+}, {
+  "message" : "Test Lists",
+  "comment" : ""
+}, {
+  "message" : "Test Result List",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-21 10:07:07</sys_created_on>
+        <sys_id>4119ecca1b0a9510c114fcc8cc4bcbac</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Admin Page</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>sys_ux_macroponent_4119ecca1b0a9510c114fcc8cc4bcbac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-21 14:21:40</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

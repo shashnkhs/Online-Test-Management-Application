@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config/>
+        <description/>
+        <fields/>
+        <icon/>
+        <name>OTM Dashboard</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Dashboard viewport">3119f143532510102b54ddeeff7b126e</parent_macroponent>
+        <parent_macroponent_composition_element_id>PGx19X02X1991xXimVEbm9pPYokBTAyq5</parent_macroponent_composition_element_id>
+        <route_type>cl8bhm78y00243574y2ke33cn</route_type>
+        <screen_type display_value="OTM Dashboard">4a3f64821b4a9510c114fcc8cc4bcb36</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-21 10:33:57</sys_created_on>
+        <sys_id>023fe0c21b4a9510c114fcc8cc4bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OTM Dashboard</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>sys_ux_app_route_023fe0c21b4a9510c114fcc8cc4bcbd3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-21 10:33:57</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=023fe0c21b4a9510c114fcc8cc4bcbd3"/>
+</record_update>

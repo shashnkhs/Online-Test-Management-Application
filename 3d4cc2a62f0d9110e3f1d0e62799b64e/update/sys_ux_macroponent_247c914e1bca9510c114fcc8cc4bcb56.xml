@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "rich_text_1",
+  "elementLabel" : "Rich text 1",
+  "propertyValues" : {
+    "html" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"text-decoration: line-through;\"&gt;&lt;span style=\"text-decoration: underline;\"&gt;&lt;em&gt;&lt;strong&gt;&lt;span style=\"font-size: 36pt; font-family: 'courier new', courier, monospace;\"&gt;Online Test Management&lt;/span&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"text-decoration: line-through;\"&gt;&lt;span style=\"text-decoration: underline;\"&gt;&lt;em&gt;&lt;strong&gt;&lt;span style=\"font-size: 36pt; font-family: 'courier new', courier, monospace;\"&gt;ServiceNow Test&lt;/span&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;",
+        "comment" : ""
+      }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "text_link_1",
+  "elementLabel" : "Text link 1",
+  "propertyValues" : {
+    "label" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Click here to enter the Service Now Test Paper",
+        "comment" : ""
+      }
+    },
+    "variant" : {
+      "type" : "JSON_LITERAL",
+      "value" : "primary"
+    },
+    "href" : {
+      "type" : "JSON_LITERAL",
+      "value" : "https://dev54554.service-now.com/now/nav/ui/classic/params/target/com.glideapp.servicecatalog_cat_item_view.do%3Fv%3D1%26sysparm_id%3D2e4d662a2f8d9110e3f1d0e62799b69c%26sysparm_link_parent%3Db73acf362f8dd110e3f1d0e62799b6bc%26sysparm_catalog%3De0d08b13c3330100c8b837659bba8fb4%26sysparm_catalog_view%3Dcatalog_default%26sysparm_view%3Dtext_search"
+    },
+    "underlined" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "opensWindow" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "download" : {
+      "type" : "JSON_LITERAL",
+      "value" : "Paper"
+    },
+    "configAria" : {
+      "type" : "MAP_CONTAINER",
+      "container" : {
+        "aria-label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Accessible Label",
+            "comment" : ""
+          }
+        }
+      }
+    }
+  },
+  "eventMappings" : [ {
+    "eventMappingId" : "cliibpccaaevaaddajjddffhheeyxcvulsr",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_text_link.NOW_TEXT_LINK#CLICKED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_text_link.NOW_TEXT_LINK#CLICKED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : null,
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : {
+        "apiName" : "x_820118_otm.NAV_ITEM_SELECTED_RELAY_247c914e1bca9510c114fcc8cc4bcb56",
+        "payload" : {
+          "type" : "JSON_LITERAL",
+          "value" : {
+            "route" : null,
+            "fields" : null,
+            "params" : null,
+            "redirect" : null,
+            "passiveNavigation" : null,
+            "title" : null,
+            "multiInstField" : null,
+            "targetRoute" : null,
+            "external" : {
+              "url" : "https://dev54554.service-now.com/now/nav/ui/classic/params/target/com.glideapp.servicecatalog_cat_item_view.do%3Fv%3D1%26sysparm_id%3D2e4d662a2f8d9110e3f1d0e62799b69c%26sysparm_link_parent%3Db73acf362f8dd110e3f1d0e62799b6bc%26sysparm_catalog%3De0d08b13c3330100c8b837659bba8fb4%26sysparm_catalog_view%3Dcatalog_default%26sysparm_view%3Dtext_search"
+            }
+          }
+        },
+        "sysId" : "53fed5021b0e9510c114fcc8cc4bcb2c"
+      },
+      "operation" : null,
+      "targetId" : "cliibpccaaevaaddaaddffhheeoupukddhhs",
+      "type" : "EVENT"
+    } ]
+  } ],
+  "slot" : null,
+  "definition" : {
+    "id" : "abe7db0526ec8705a0eff03521febfa3",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "rich_text_2",
+  "elementLabel" : "Rich text 2",
+  "propertyValues" : {
+    "html" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "&lt;p&gt;&lt;strong&gt;&lt;span style=\"font-family: 'courier new', courier, monospace; font-size: 24pt;\"&gt;Click the Link in the down to take your Dream Test of Service Now&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;",
+        "comment" : ""
+      }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : {
+    "background" : "rgb(var(--now-color--secondary-0))"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <dispatched_events>53fed5021b0e9510c114fcc8cc4bcb2c</dispatched_events>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"element_id":"rich_text_1","styles":{}},{"element_id":"rich_text_2","styles":{}},{"element_id":"text_link_1","styles":{}}],
+    "root" : null,
+    "rules" : null,
+    "styles" : {"flex-direction":"column"},
+    "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+    "type" : "flex"
+  },
+  "version" : "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>ServiceNow Test Page</name>
+        <props>[ ]</props>
+        <required_translations>[ {
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"text-decoration: line-through;\"&gt;&lt;span style=\"text-decoration: underline;\"&gt;&lt;em&gt;&lt;strong&gt;&lt;span style=\"font-size: 36pt; font-family: 'courier new', courier, monospace;\"&gt;Online Test Management&lt;/span&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"text-decoration: line-through;\"&gt;&lt;span style=\"text-decoration: underline;\"&gt;&lt;em&gt;&lt;strong&gt;&lt;span style=\"font-size: 36pt; font-family: 'courier new', courier, monospace;\"&gt;ServiceNow Test&lt;/span&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
+  "message" : "&lt;p&gt;&lt;strong&gt;&lt;span style=\"font-family: 'courier new', courier, monospace; font-size: 24pt;\"&gt;Click the Link in the down to take your Dream Test of Service Now&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
+  "message" : "Accessible Label",
+  "comment" : ""
+}, {
+  "message" : "Click here to enter the Service Now Test Paper",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-21 13:51:33</sys_created_on>
+        <sys_id>247c914e1bca9510c114fcc8cc4bcb56</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>ServiceNow Test Page</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>sys_ux_macroponent_247c914e1bca9510c114fcc8cc4bcb56</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-21 14:08:41</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

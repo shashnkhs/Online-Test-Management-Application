@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - My Requests Dataset">012d9c8ecac6951009406dd9a24a3d5c</dataset>
+        <order/>
+        <predicate_bundle display_value="My requests - incident bundle">8d2d9c8e42c69510c0984469cc0d1c5a</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-21 09:15:02</sys_created_on>
+        <sys_id>892d9c8e3cc69510dfc61edef5c25e5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_892d9c8e3cc69510dfc61edef5c25e5a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-21 09:15:02</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>

@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "rich_text_1",
+  "elementLabel" : "Rich text 1",
+  "propertyValues" : {
+    "html" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"text-decoration: line-through;\"&gt;&lt;span style=\"text-decoration: underline;\"&gt;&lt;em&gt;&lt;strong&gt;&lt;span style=\"font-family: 'courier new', courier, monospace; font-size: 36pt;\"&gt;Online Test Management&lt;/span&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"text-decoration: line-through;\"&gt;&lt;span style=\"text-decoration: underline;\"&gt;&lt;em&gt;&lt;strong&gt;&lt;span style=\"font-family: 'courier new', courier, monospace; font-size: 36pt;\"&gt;Adding Test&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;",
+        "comment" : ""
+      }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "container_1",
+  "elementLabel" : "Container 1",
+  "propertyValues" : {
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "form_1",
+      "elementLabel" : "Form 1",
+      "propertyValues" : {
+        "sections" : {
+          "type" : "JSON_LITERAL",
+          "value" : [ {
+            "sysId" : "bf1d96e3c0a801640190725e63f8ac80",
+            "caption" : "example",
+            "captionDisplay" : "Example Section",
+            "rows" : [ [ {
+              "fields" : [ "number", "caller_id", "category", "subcategory", "business_service", "service_offering", "cmdb_ci", "universal_request", "route_reason" ]
+            }, {
+              "fields" : [ "contact_type", "state", "hold_reason", "impact", "urgency", "priority", "assignment_group", "assigned_to" ]
+            } ], [ {
+              "fields" : [ "short_description", "description" ]
+            } ] ],
+            "id" : 0,
+            "label" : "Example Section",
+            "defaultSection" : false,
+            "expanded" : true
+          } ]
+        },
+        "fields" : {
+          "type" : "JSON_LITERAL",
+          "value" : {
+            "number" : {
+              "name" : "number",
+              "dictionary" : {
+                "type" : "string",
+                "dependentFieldLabel" : null,
+                "dependentField" : null,
+                "dependentTable" : null,
+                "name" : "number",
+                "label" : "Number",
+                "fieldHint" : "",
+                "canWrite" : true,
+                "canRead" : true,
+                "canCreate" : true,
+                "internalType" : "string",
+                "isMandatory" : false,
+                "isEncrypted" : false,
+                "encryptionContext" : "",
+                "sys_readonly" : false,
+                "attributes" : [ {
+                  "name" : "edge_encryption_enabled",
+                  "value" : "true"
+                }, {
+                  "name" : "ignore_filter_on_new",
+                  "value" : "true"
+                }, {
+                  "name" : "ts_weight",
+                  "value" : "50"
+                } ]
+              },
+              "maxLength" : 40,
+              "defaultRows" : null,
+              "type" : "string",
+              "label" : "Number",
+              "visible" : true,
+              "readonly" : false,
+              "mandatory" : false,
+              "dependentField" : null,
+              "dependentTable" : null,
+              "referringTable" : "incident",
+              "referringRecordId" : "2bf7f3b4c7132010840c625788c260c9",
+              "internalType" : "string",
+              "value" : "EXAMPLE007",
+              "displayValue" : "EXAMPLE007",
+              "valuesList" : [ ],
+              "display_value_list" : [ ],
+              "isEncrypted" : false,
+              "encryptionContext" : "",
+              "sys_readonly" : false,
+              "originalValue" : "INC0010059"
+            },
+            "caller_id" : {
+              "name" : "caller_id",
+              "dictionary" : {
+                "type" : "reference",
+                "dependentFieldLabel" : "Company",
+                "dependentField" : "company",
+                "dependentTable" : "core_company",
+                "name" : "caller_id",
+                "label" : "Caller",
+                "fieldHint" : "Personwhoreportedorisaffectedbythisincident",
+                "canWrite" : true,
+                "canRead" : true,
+                "canCreate" : true,
+                "internalType" : "reference",
+                "isMandatory" : false,
+                "isEncrypted" : false,
+                "encryptionContext" : "",
+                "sys_readonly" : false,
+                "attributes" : [ {
+                  "name" : "encode_utf8",
+                  "value" : "false"
+                }, {
+                  "name" : "ref_contributions",
+                  "value" : "user_show_incidents"
+                } ]
+              },
+              "reference" : "sys_user",
+              "referenceQualifier" : null,
+              "referenceKey" : null,
+              "useReferenceQualifier" : "simple",
+              "dependent" : "company",
+              "dependentOnField" : "company",
+              "refAutoCompleter" : null,
+              "refAcOrderBy" : null,
+              "refAcColumns" : null,
+              "refAcColumnsSearch" : false,
+              "refAcDisplayValue" : false,
+              "refQualElements" : null,
+              "refContributions" : "user_show_incidents",
+              "isDynamicCreate" : false,
+              "isReferenceScriptableTable" : false,
+              "referenceError" : null,
+              "type" : "reference",
+              "label" : "Caller",
+              "visible" : true,
+              "readonly" : false,
+              "mandatory" : true,
+              "dependentField" : "company",
+              "dependentTable" : "core_company",
+              "referringTable" : "incident",
+              "referringRecordId" : "2bf7f3b4c7132010840c625788c260c9",
+              "internalType" : "reference",
+              "value" : "",
+              "displayValue" : null,
+              "valuesList" : [ ],
+              "display_value_list" : [ ],
+              "messages" : [ ],
+              "sys_readonly" : false,
+              "declarativeUiActions" : [ {
+                "name" : "open_record",
+                "icon" : "circle-info-outline",
+                "label" : "Open Record",
+                "dependency" : "",
+                "requiresValue" : true,
+                "order" : 0,
+                "conditions" : "",
+                "actionType" : "uxf_client_action",
+                "actionComponent" : "",
+                "actionDispatch" : "REFERENCE_INFO_CLICK",
+                "actionPayload" : "",
+                "actionAttributes" : "",
+                "groupBy" : false,
+                "group" : "",
+                "assignmentId" : "172e2043534310108135ddeeff7b12dd",
+                "confirmationRequired" : false,
+                "confirmationMessage" : "",
+                "tooltip" : "Open Record",
+                "modelConditions" : [ {
+                  "field" : "value",
+                  "operator" : "ISNOTEMPTY",
+                  "value" : "",
+                  "newQuery" : false,
+                  "or" : false
+                }, {
+                  "field" : null,
+                  "operator" : "=",
+                  "value" : null,
+                  "newQuery" : false,
+                  "or" : false
+                } ],
+                "payloadMap" : [ {
+                  "name" : "referenceInfoClick@referencetable",
+                  "value" : "{{referenceTable}}"
+                }, {
+                  "name" : "referenceInfoClick@sys_id",
+                  "value" : "{{value}}"
+                }, {
+                  "name" : "referenceInfoClick@field",
+                  "value" : "{{fieldName}}"
+                }, {
+                  "name" : "referenceInfoClick@table",
+                  "value" : "{{tableName}}"
+                }, {
+                  "name" : "referenceInfoClick@name",
+                  "value" : "{{name}}"
+                } ]
+              }, {
+                "name" : "ref_search",
+                "icon" : "magnifying-glass-outline",
+                "label" : "Search For Record",
+                "dependency" : "",
+                "requiresValue" : false,
+                "order" : 0,
+                "conditions" : "",
+                "actionType" : "uxf_client_action",
+                "actionComponent" : "",
+                "actionDispatch" : "REF_SEARCH_REQUESTED",
+                "actionPayload" : "",
+                "actionAttributes" : "",
+                "groupBy" : false,
+                "group" : "",
+                "assignmentId" : "c6542741ff13101035be517f793bf1bb",
+                "confirmationRequired" : false,
+                "confirmationMessage" : "",
+                "tooltip" : "Search for record",
+                "modelConditions" : [ {
+                  "field" : "readonly",
+                  "operator" : "=",
+                  "value" : "false",
+                  "newQuery" : false,
+                  "or" : false
+                }, {
+                  "field" : null,
+                  "operator" : "=",
+                  "value" : null,
+                  "newQuery" : false,
+                  "or" : false
+                } ],
+                "payloadMap" : [ {
+                  "name" : "parentSysId",
+                  "value" : "{{recordSysId}}"
+                }, {
+                  "name" : "encodedRecord",
+                  "value" : "{{encodedRecord}}"
+                }, {
+                  "name" : "referenceField",
+                  "value" : "{{fieldName}}"
+                }, {
+                  "name" : "fieldLabel",
+                  "value" : "{{label}}"
+                }, {
+                  "name" : "serializedChanges",
+                  "value" : "{{serializedChanges}}"
+                }, {
+                  "name" : "parentTable",
+                  "value" : "{{tableName}}"
+                } ]
+              } ],
+              "originalValue" : ""
+            },
+            "short_description" : {
+              "name" : "short_description",
+              "dictionary" : {
+                "type" : "string",
+                "dependentFieldLabel" : null,
+                "dependentField" : null,
+                "dependentTable" : null,
+                "name" : "short_description",
+                "label" : "Short Description",
+                "fieldHint" : "",
+                "canWrite" : true,
+                "canRead" : true,
+                "canCreate" : true,
+                "internalType" : "string",
+                "isMandatory" : false,
+                "isEncrypted" : false,
+                "encryptionContext" : "",
+                "sys_readonly" : false,
+                "attributes" : [ {
+                  "name" : "edge_encryption_enabled",
+                  "value" : "true"
+                }, {
+                  "name" : "knowledge_search",
+                  "value" : "true"
+                }, {
+                  "name" : "no_truncate",
+                  "value" : "true"
+                }, {
+                  "name" : "ts_weight",
+                  "value" : "10"
+                } ]
+              },
+              "maxLength" : 160,
+              "defaultRows" : null,
+              "type" : "string",
+              "label" : "Short Description",
+              "visible" : true,
+              "readonly" : false,
+              "mandatory" : true,
+              "dependentField" : null,
+              "dependentTable" : null,
+              "referringTable" : "incident",
+              "referringRecordId" : "2bf7f3b4c7132010840c625788c260c9",
+              "internalType" : "string",
+              "value" : "",
+              "displayValue" : null,
+              "valuesList" : [ ],
+              "display_value_list" : [ ],
+              "isEncrypted" : false,
+              "encryptionContext" : "",
+              "sys_readonly" : false,
+              "originalValue" : ""
+            }
+          }
+        },
+        "table" : {
+          "type" : "JSON_LITERAL",
+          "value" : "x_820118_otm_adding_tests_table"
+        },
+        "relatedLists" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "sysId" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "view" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "forcedViewName" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "isContextMenuHidden" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "isSectionMenuHidden" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "isFormOptionsHidden" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "isRemovePaddingLeft" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "isSectionTitleHidden" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "disableCollapse" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "config" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "serializedChanges" : {
+          "type" : "JSON_LITERAL",
+          "value" : [ ]
+        },
+        "encodedRecord" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "isNewRecord" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "scrollableHost" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "inUiBuilder" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "inRecordPageTab" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "userSession" : {
+          "type" : "CONTEXT_BINDING",
+          "binding" : {
+            "address" : [ "user" ],
+            "category" : "session"
+          }
+        },
+        "formMessages" : {
+          "type" : "JSON_LITERAL",
+          "value" : [ ]
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "cdf8d604a3fda59e69ccd6dd407263d6",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
+      "elementId" : "document_display_1",
+      "elementLabel" : "Document display 1",
+      "propertyValues" : {
+        "documentType" : {
+          "type" : "JSON_LITERAL",
+          "value" : "attachment"
+        },
+        "htmlContent" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "enableEditing" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "resizable" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "editorHeight" : {
+          "type" : "JSON_LITERAL",
+          "value" : 500
+        },
+        "editorMaxHeight" : {
+          "type" : "JSON_LITERAL",
+          "value" : 1000
+        },
+        "attachmentType" : {
+          "type" : "JSON_LITERAL",
+          "value" : "pdf"
+        },
+        "attachmentId" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "hideToolbar" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideSearch" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideNavigation" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideDownload" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideZoom" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideRotation" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideDelete" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideClose" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "928d9099c834b4b315b1d4dad8e7a9fe",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"form_1","styles":{}},{"element_id":"document_display_1","styles":{}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <dispatched_events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"element_id":"rich_text_1","styles":{}},{"element_id":"container_1","styles":{}}],
+    "root" : null,
+    "rules" : null,
+    "styles" : {"flex-direction":"column"},
+    "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+    "type" : "flex"
+  },
+  "version" : "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Add Test Page</name>
+        <props>[ ]</props>
+        <required_translations>[ {
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"text-decoration: line-through;\"&gt;&lt;span style=\"text-decoration: underline;\"&gt;&lt;em&gt;&lt;strong&gt;&lt;span style=\"font-family: 'courier new', courier, monospace; font-size: 36pt;\"&gt;Online Test Management&lt;/span&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"text-decoration: line-through;\"&gt;&lt;span style=\"text-decoration: underline;\"&gt;&lt;em&gt;&lt;strong&gt;&lt;span style=\"font-family: 'courier new', courier, monospace; font-size: 36pt;\"&gt;Adding Test&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
+  "message" : "Caller",
+  "comment" : ""
+}, {
+  "message" : "Example Section",
+  "comment" : ""
+}, {
+  "message" : "Number",
+  "comment" : ""
+}, {
+  "message" : "Open Record",
+  "comment" : ""
+}, {
+  "message" : "Search For Record",
+  "comment" : ""
+}, {
+  "message" : "Short Description",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-21 13:18:28</sys_created_on>
+        <sys_id>33d49d461bca9510c114fcc8cc4bcb85</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Add Test Page</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>sys_ux_macroponent_33d49d461bca9510c114fcc8cc4bcb85</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-21 13:28:25</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

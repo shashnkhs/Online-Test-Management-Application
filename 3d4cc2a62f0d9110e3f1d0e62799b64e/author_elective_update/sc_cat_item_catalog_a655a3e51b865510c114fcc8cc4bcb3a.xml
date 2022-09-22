@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Demo Record Producer">3805eba51b865510c114fcc8cc4bcb81</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 10:32:44</sys_created_on>
+        <sys_id>a655a3e51b865510c114fcc8cc4bcb3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Demo Record Producer</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_a655a3e51b865510c114fcc8cc4bcb3a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-20 10:32:44</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</application>
+        <file_path/>
+        <instance_id>cfa30df7db4d53800e785d00cf96191d</instance_id>
+        <instance_name>dev54554</instance_name>
+        <name>sc_cat_item_catalog_a655a3e51b865510c114fcc8cc4bcb3a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Demo Record Producer">3805eba51b865510c114fcc8cc4bcb81</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-20 10:32:44</sys_created_on><sys_id>a655a3e51b865510c114fcc8cc4bcb3a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Demo Record Producer</sys_name><sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package><sys_policy/><sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope><sys_update_name>sc_cat_item_catalog_a655a3e51b865510c114fcc8cc4bcb3a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-20 10:32:44</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-22827220</payload_hash>
+        <record_name>Service Catalog.Demo Record Producer</record_name>
+        <reverted_from/>
+        <source>3fb379981bc61110c114fcc8cc4bcb6a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 10:32:44</sys_created_on>
+        <sys_id>6655a3e51b865510c114fcc8cc4bcb3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1835a7510b00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-20 10:32:44</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>ea55a3e504865510393b2968dd35a83d</update_guid>
+        <update_guid_history>ea55a3e504865510393b2968dd35a83d:-22827220</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Demo Record Producer">ee55a3e51b865510c114fcc8cc4bcb47</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 10:32:45</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>1d021ab1ab824670a3718426c1faf211</sys_id>
+        <sys_metadata>a655a3e51b865510c114fcc8cc4bcb3a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Demo Record Producer</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_parent display_value="Demo Record Producer">3805eba51b865510c114fcc8cc4bcb81</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_scope_delete display_value="">02239a22c93b4790af8e02f6efb4fe10</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_a655a3e51b865510c114fcc8cc4bcb3a</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_a655a3e51b865510c114fcc8cc4bcb3a">6655a3e51b865510c114fcc8cc4bcb3e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-20 10:32:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>enable_login_modal</name>
+        <page display_value="">992d9c8edbc695100b35c6e4d885818d</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-21 09:15:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>552d9c8ec5c695100cc5ec851fc4d490</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>enable_login_modal</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>sys_ux_page_property_552d9c8ec5c695100cc5ec851fc4d490</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-21 09:15:03</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_820118_otm.992d9c8edbc695100b35c6e4d885818d.root.enable_login_modal</unique_name>
+        <value>{&#13;
+	"enabled":false&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</application>
+        <file_path/>
+        <instance_id>cfa30df7db4d53800e785d00cf96191d</instance_id>
+        <instance_name>dev54554</instance_name>
+        <name>sys_ux_page_property_552d9c8ec5c695100cc5ec851fc4d490</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>enable_login_modal</name><page display_value="">992d9c8edbc695100b35c6e4d885818d</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2022-09-21 09:15:03</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>552d9c8ec5c695100cc5ec851fc4d490</sys_id><sys_mod_count>0</sys_mod_count><sys_name>enable_login_modal</sys_name><sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package><sys_policy/><sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope><sys_update_name>sys_ux_page_property_552d9c8ec5c695100cc5ec851fc4d490</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-09-21 09:15:03</sys_updated_on><type>json</type><unique_name>x_820118_otm.992d9c8edbc695100b35c6e4d885818d.root.enable_login_modal</unique_name><value>{&#13;
+	"enabled":false&#13;
+}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>699949125</payload_hash>
+        <record_name>enable_login_modal</record_name>
+        <reverted_from/>
+        <source>6e86e8d01b021110c114fcc8cc4bcb4a</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-09-15 23:26:39</sys_created_on>
+        <sys_id>12556cc61b0a9510c114fcc8cc4bcb38</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1834379cb980000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>de556cc6a60a9510afaeacc311512a37</update_guid>
+        <update_guid_history>de556cc6a60a9510afaeacc311512a37:699949125</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-21 09:50:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>899a17b1627c4900a56ef264daff1390</sys_id>
+        <sys_metadata>552d9c8ec5c695100cc5ec851fc4d490</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>enable_login_modal</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_scope_delete display_value="">02239a22c93b4790af8e02f6efb4fe10</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_552d9c8ec5c695100cc5ec851fc4d490</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_552d9c8ec5c695100cc5ec851fc4d490">12556cc61b0a9510c114fcc8cc4bcb38</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-21 09:50:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

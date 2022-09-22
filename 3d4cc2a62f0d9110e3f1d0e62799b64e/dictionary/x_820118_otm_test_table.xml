@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Test Table" max_length="40" name="x_820118_otm_test_table" type="collection">
+    <element label="Test Table" max_length="40" name="x_820118_otm_test_table" sizeclass="14" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" label="selecting choice" max_length="40" name="choice" reference="x_820118_otm_adding_tests_table" type="reference">
             <choice/>
         </element>
@@ -13,7 +13,6 @@
         <element attributes="edge_encryption_enabled=true" label="Which Glide form is used for setting Mandatory?" max_length="40" name="string_3" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Which glide form is uesd to specified display value in a reference record?" max_length="40" name="string_4" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Record producer add the record to  ________ ?" max_length="40" name="string_5" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="What is the full Form of AWS?" max_length="40" name="string_6" type="string"/>
         <element label="Test Duration" max_length="40" name="test_duration" type="glide_duration"/>
         <element attributes="edge_encryption_enabled=true" label="Test ID" max_length="40" name="test_id" type="string"/>
         <element display="true" label="Test Name" max_length="32" name="test_name" reference="x_820118_otm_adding_tests_table" type="reference"/>

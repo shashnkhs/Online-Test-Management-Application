@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Online Test Management Config">452d5c8e1bc69510c114fcc8cc4bcbfa</app_config>
+        <description/>
+        <fields>sysId,table</fields>
+        <icon/>
+        <name>Record Page(request)</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>record_request</route_type>
+        <screen_type display_value="Record Page(request)">092d9c8e71c69510408a07ad6b32295f</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-21 09:15:07</sys_created_on>
+        <sys_id>012d9c8e21c69510708020146d893b5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Page(request)</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>sys_ux_app_route_012d9c8e21c69510708020146d893b5f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-21 09:15:07</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=012d9c8e21c69510708020146d893b5f"/>
+</record_update>
