@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>0</auth_code_lifespan>
+        <auth_url>https://login.salesforce.com/services/oauth2/authorize</auth_url>
+        <certificate_url/>
+        <client_id>3MVG95mg0lk4batjHEDg8WlvnX5uGXd7lWdQnLMefHeviJf1bMFpc1oMXyWL.144fGsho.FzOBxQ7xaGL4zXH</client_id>
+        <client_secret>﷞﷟﷒96e24d501b061110c114fcc8cc4bcb61﷬﷔1﷬﷭lInJjX-QVZbParnEYG7pBQ==zPrhAeQdTVO6IJESSqIV5CYPS4CX3tluH1lmMoPR05FUJ60opypNmBpqzutEDSGbH6EmICD7_EoMR37kELeSgT6GAIwJ3jn3nA4fPgVgLw0=﷮﷯</client_secret>
+        <client_uuid>877921811b0f5510c114fcc8cc4bcb25</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>authorization_code</default_grant_type>
+        <id_token_lifespan>0</id_token_lifespan>
+        <logo_url/>
+        <message_signature_lifespan>0</message_signature_lifespan>
+        <name>sales</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://dev54554.service-now.com/oauth_redirect.do</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url>https://login.salesforce.com/services/oauth2/revoke</revoke_token_url>
+        <salt>0</salt>
+        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-07 05:23:38</sys_created_on>
+        <sys_id>0b7921811b0f5510c114fcc8cc4bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sales</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>oauth_entity_0b7921811b0f5510c114fcc8cc4bcb25</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-07 05:23:38</sys_updated_on>
+        <token_url>https://login.salesforce.com/services/oauth2/token</token_url>
+        <type>oauth_provider</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <user/>
+    </oauth_entity>
+</record_update>

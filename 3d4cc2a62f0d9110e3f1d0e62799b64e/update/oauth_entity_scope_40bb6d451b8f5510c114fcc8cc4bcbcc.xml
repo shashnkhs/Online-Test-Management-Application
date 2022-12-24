@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_scope">
+    <oauth_entity_scope action="INSERT_OR_UPDATE">
+        <in_default_profile>true</in_default_profile>
+        <name>web</name>
+        <oauth_entity display_value="sales">0b7921811b0f5510c114fcc8cc4bcb25</oauth_entity>
+        <oauth_entity_scope>web</oauth_entity_scope>
+        <sys_class_name>oauth_entity_scope</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-07 05:30:28</sys_created_on>
+        <sys_id>40bb6d451b8f5510c114fcc8cc4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>web</sys_name>
+        <sys_package display_value="Online Test Management" source="x_820118_otm">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Test Management">3d4cc2a62f0d9110e3f1d0e62799b64e</sys_scope>
+        <sys_update_name>oauth_entity_scope_40bb6d451b8f5510c114fcc8cc4bcbcc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-07 05:30:28</sys_updated_on>
+    </oauth_entity_scope>
+</record_update>
